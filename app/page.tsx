@@ -66,7 +66,7 @@ export default function Home() {
           near: CAMERA.near,
           far: CAMERA.far,
         }}
-        dpr={[1, Math.min(PERFORMANCE.maxPixelRatio, window.devicePixelRatio)]}
+        dpr={[1, typeof window !== 'undefined' ? Math.min(PERFORMANCE.maxPixelRatio, window.devicePixelRatio) : PERFORMANCE.maxPixelRatio]}
         gl={{
           antialias: true,
           alpha: true,

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -6,12 +6,13 @@ export const metadata: Metadata = {
   description: '沉浸式3D星系浏览器，探索 Web3 Dapps 生态',
   keywords: ['Web3', 'Dapps', '3D', '星系', 'DeFi', 'NFT'],
   authors: [{ name: 'Mission9 Team' }],
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 }
 
 export default function RootLayout({
