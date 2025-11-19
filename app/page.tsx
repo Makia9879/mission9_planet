@@ -75,12 +75,16 @@ export default function Home() {
       >
         <Suspense fallback={null}>
           {layer === 'layer1' ? (
-            <GalaxyScene onSelectCategory={handleSelectCategory} />
+            <GalaxyScene
+              onSelectCategory={handleSelectCategory}
+              hideLabels={!!selectedProject}
+            />
           ) : (
             selectedCategoryId && (
               <PlanetScene
                 categoryId={selectedCategoryId}
                 onSelectProject={handleSelectProject}
+                hideLabels={!!selectedProject}
               />
             )
           )}

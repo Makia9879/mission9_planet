@@ -14,6 +14,7 @@ interface SpiralGalaxyProps {
   categoryName: string
   scale?: number
   onClick: () => void
+  hideLabel?: boolean
 }
 
 /**
@@ -26,6 +27,7 @@ export default function SpiralGalaxy({
   categoryName,
   scale = 1,
   onClick,
+  hideLabel = false,
 }: SpiralGalaxyProps) {
   const groupRef = useRef<THREE.Group>(null)
   const pointsRef = useRef<THREE.Points>(null)
@@ -37,10 +39,10 @@ export default function SpiralGalaxy({
     return generateSpiralGalaxyPositions(count, 3, 1)
   }, [])
 
-  // 动画：持续旋转星系
+  // 动画：持续旋转星系（绕Y轴旋转，保持黄道面横着）
   useFrame((state, delta) => {
     if (groupRef.current) {
-      groupRef.current.rotation.z += delta * ANIMATION.particleRotateSpeed
+      groupRef.current.rotation.y += delta * ANIMATION.particleRotateSpeed
     }
 
     // 悬停时粒子闪烁效果
@@ -117,36 +119,38 @@ export default function SpiralGalaxy({
       </group>
 
       {/* 常驻显示标签 */}
-      <Html
-        center
-        transform={false}
-        sprite
-        style={{
-          pointerEvents: 'none',
-          userSelect: 'none',
-        }}
-      >
-        <div
-          className={`backdrop-blur-md rounded-lg border shadow-xl transition-all duration-300 ${
-            hovered
-              ? 'bg-black/95 border-white/50'
-              : 'bg-black/70 border-white/20'
-          }`}
+      {!hideLabel && (
+        <Html
+          center
+          transform={false}
+          sprite
           style={{
-            padding: '8px 12px',
+            pointerEvents: 'none',
+            userSelect: 'none',
           }}
         >
-          <p
-            className="text-white font-bold whitespace-nowrap tracking-wide"
+          <div
+            className={`backdrop-blur-md rounded-lg border shadow-xl transition-all duration-300 ${
+              hovered
+                ? 'bg-black/95 border-white/50'
+                : 'bg-black/70 border-white/20'
+            }`}
             style={{
-              fontSize: '16px',
-              lineHeight: '1.2',
+              padding: '8px 12px',
             }}
           >
-            {categoryName}
-          </p>
-        </div>
-      </Html>
+            <p
+              className="text-white font-bold whitespace-nowrap tracking-wide"
+              style={{
+                fontSize: '16px',
+                lineHeight: '1.2',
+              }}
+            >
+              {categoryName}
+            </p>
+          </div>
+        </Html>
+      )}
     </group>
   )
 }

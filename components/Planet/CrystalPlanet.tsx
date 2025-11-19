@@ -4,27 +4,31 @@ import { useRef, useState } from 'react'
 import { useFrame } from '@react-three/fiber'
 import { Html } from '@react-three/drei'
 import * as THREE from 'three'
-import { ANIMATION, MATERIAL } from '@/lib/constants'
+import { ANIMATION } from '@/lib/constants'
 import type { Position3D } from '@/lib/types'
+import type { PlanetPreset } from '@/lib/planetPresets'
 
 interface CrystalPlanetProps {
   position: Position3D
-  color: string
   projectName: string
   scale?: number
   onClick: () => void
+  preset: PlanetPreset
+  hideLabel?: boolean
 }
 
 /**
  * 水晶球组件
  * 半透明发光的星球，代表具体的 Dapp 项目
+ * 支持多种预设渲染风格
  */
 export default function CrystalPlanet({
   position,
-  color,
   projectName,
   scale = 1,
   onClick,
+  preset,
+  hideLabel = false,
 }: CrystalPlanetProps) {
   const meshRef = useRef<THREE.Mesh>(null)
   const glowRef = useRef<THREE.Mesh>(null)
@@ -56,8 +60,12 @@ export default function CrystalPlanet({
 
   const currentScale = hovered ? scale * ANIMATION.hoverScale : scale
   const emissiveIntensity = hovered
-    ? MATERIAL.hoverEmissiveIntensity
-    : MATERIAL.emissiveIntensity
+    ? preset.emissive.hoverIntensity
+    : preset.emissive.intensity
+  const glowOpacity = hovered ? preset.glow.hoverOpacity : preset.glow.opacity
+  const pointLightIntensity = hovered
+    ? preset.pointLight.hoverIntensity
+    : preset.pointLight.intensity
 
   return (
     <group
@@ -82,28 +90,29 @@ export default function CrystalPlanet({
       <mesh ref={meshRef}>
         <sphereGeometry args={[1, 32, 32]} />
         <meshPhysicalMaterial
-          color={color}
-          transmission={MATERIAL.crystalTransmission}
-          thickness={MATERIAL.crystalThickness}
-          roughness={MATERIAL.crystalRoughness}
-          ior={MATERIAL.crystalIOR}
-          emissive={color}
+          color={preset.primaryColor}
+          transmission={preset.material.transmission}
+          thickness={preset.material.thickness}
+          roughness={preset.material.roughness}
+          metalness={preset.material.metalness || 0}
+          ior={preset.material.ior}
+          emissive={preset.primaryColor}
           emissiveIntensity={emissiveIntensity}
           transparent
           opacity={0.95}
           envMapIntensity={1}
-          clearcoat={1}
-          clearcoatRoughness={0.1}
+          clearcoat={preset.material.clearcoat || 1}
+          clearcoatRoughness={preset.material.clearcoatRoughness || 0.1}
         />
       </mesh>
 
       {/* 外层光晕 */}
       <mesh ref={glowRef}>
-        <sphereGeometry args={[1.3, 24, 24]} />
+        <sphereGeometry args={[preset.glow.scale, 24, 24]} />
         <meshBasicMaterial
-          color={color}
+          color={preset.secondaryColor || preset.primaryColor}
           transparent
-          opacity={hovered ? 0.25 : 0.12}
+          opacity={glowOpacity}
           blending={THREE.AdditiveBlending}
           side={THREE.BackSide}
         />
@@ -111,35 +120,37 @@ export default function CrystalPlanet({
 
       {/* 内核光点 */}
       <pointLight
-        color={color}
-        intensity={hovered ? 3 : 1.5}
-        distance={5}
+        color={preset.secondaryColor || preset.primaryColor}
+        intensity={pointLightIntensity}
+        distance={preset.pointLight.distance}
         decay={2}
       />
 
       {/* 常驻显示项目名称 */}
-      <Html
-        center
-        transform={false}
-        sprite
-        style={{
-          pointerEvents: 'none',
-          userSelect: 'none',
-        }}
-      >
-        <p
-          className={`font-bold whitespace-nowrap tracking-wide transition-all duration-300 ${
-            hovered ? 'text-white' : 'text-white/90'
-          }`}
+      {!hideLabel && (
+        <Html
+          center
+          transform={false}
+          sprite
           style={{
-            fontSize: '16px',
-            lineHeight: '1.2',
-            textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)',
+            pointerEvents: 'none',
+            userSelect: 'none',
           }}
         >
-          {projectName}
-        </p>
-      </Html>
+          <p
+            className={`font-bold whitespace-nowrap tracking-wide transition-all duration-300 ${
+              hovered ? 'text-white' : 'text-white/90'
+            }`}
+            style={{
+              fontSize: '16px',
+              lineHeight: '1.2',
+              textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)',
+            }}
+          >
+            {projectName}
+          </p>
+        </Html>
+      )}
     </group>
   )
 }

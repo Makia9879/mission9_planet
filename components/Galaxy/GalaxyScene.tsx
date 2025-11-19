@@ -5,27 +5,33 @@ import { useFrame } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
 import { categories } from '@/lib/mockData'
-import { getFibonacciSpherePoints } from '@/lib/sphereLayout'
+import { getFibonacciSpherePoints, optimizeSphereDistribution } from '@/lib/sphereLayout'
 import { LAYOUT, CONTROLS, ANIMATION, LIGHTING } from '@/lib/constants'
 import StarField from '../Effects/StarField'
 import SpiralGalaxy from './SpiralGalaxy'
 
 interface GalaxySceneProps {
   onSelectCategory: (categoryId: string) => void
+  hideLabels?: boolean
 }
 
 /**
  * 第一层场景：星系云层级
  * 展示所有 Dapp 分类，每个分类用螺旋星系表示
  */
-export default function GalaxyScene({ onSelectCategory }: GalaxySceneProps) {
+export default function GalaxyScene({
+  onSelectCategory,
+  hideLabels = false,
+}: GalaxySceneProps) {
   const groupRef = useRef<THREE.Group>(null)
   const controlsRef = useRef<any>(null)
   const autoRotateRef = useRef(true)
 
-  // 计算星系位置（球面均匀分布）
+  // 计算星系位置（球面均匀分布 + Thomson 优化）
   const galaxyPositions = useMemo(() => {
-    return getFibonacciSpherePoints(categories.length, LAYOUT.sphereRadius)
+    const initialPoints = getFibonacciSpherePoints(categories.length, LAYOUT.sphereRadius)
+    // 使用 Thomson 问题优化，迭代50次获得更均匀的分布
+    return optimizeSphereDistribution(initialPoints, 50, 0.1)
   }, [])
 
   // 自动旋转逻辑
@@ -71,6 +77,7 @@ export default function GalaxyScene({ onSelectCategory }: GalaxySceneProps) {
             categoryName={category.name}
             scale={LAYOUT.galaxySize}
             onClick={() => onSelectCategory(category.id)}
+            hideLabel={hideLabels}
           />
         ))}
       </group>

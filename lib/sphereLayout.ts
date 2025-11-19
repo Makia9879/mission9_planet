@@ -1,15 +1,17 @@
 import type { Position3D } from './types'
 
 /**
- * 使用 Fibonacci 球面分布算法在球面上均匀分布点
+ * 使用改进的 Fibonacci 球面分布算法在球面上均匀分布点
  *
  * @param count 点的数量
  * @param radius 球体半径
  * @returns 点的3D坐标数组
  *
  * 算法原理：
- * 使用黄金角度（Golden Angle）约137.5度来确保点在球面上的均匀分布
- * 这种方法比传统的经纬度网格分布更加均匀
+ * 1. 使用黄金角度（Golden Angle）约137.5度确保角度均匀
+ * 2. 使用改进的纬度分布公式，确保点在球面上的面积密度均匀
+ * 3. 添加偏移量避免极点聚集
+ * 这种方法是目前最优的球面均匀分布算法之一
  */
 export function getFibonacciSpherePoints(
   count: number,
@@ -17,20 +19,30 @@ export function getFibonacciSpherePoints(
 ): Position3D[] {
   const points: Position3D[] = []
 
+  // 处理特殊情况
+  if (count <= 0) return points
+  if (count === 1) {
+    return [[0, radius, 0]]
+  }
+
   // 黄金角度（弧度）≈ 2.39996323
   const goldenAngle = Math.PI * (3 - Math.sqrt(5))
 
+  // 添加偏移量以改善均匀性
+  const offset = 2.0 / count
+
   for (let i = 0; i < count; i++) {
-    // y 坐标从 1 到 -1 线性分布
-    const y = 1 - (i / (count - 1)) * 2
+    // 改进的纬度分布：使用更均匀的间距
+    // 从 -1 + offset/2 到 1 - offset/2，避免极点过度聚集
+    const y = ((i * offset) - 1) + (offset / 2)
 
     // 计算该高度处的圆半径
     const radiusAtY = Math.sqrt(1 - y * y)
 
-    // 使用黄金角度计算角度
+    // 使用黄金角度计算经度角度
     const theta = goldenAngle * i
 
-    // 计算 x 和 z 坐标
+    // 计算 x 和 z 坐标（球面坐标转换）
     const x = Math.cos(theta) * radiusAtY
     const z = Math.sin(theta) * radiusAtY
 
@@ -158,4 +170,120 @@ export function normalize3D(v: Position3D): Position3D {
   const length = Math.sqrt(v[0] * v[0] + v[1] * v[1] + v[2] * v[2])
   if (length === 0) return [0, 0, 0]
   return [v[0] / length, v[1] / length, v[2] / length]
+}
+
+/**
+ * 计算一组点的最小距离（用于验证均匀性）
+ * 距离越接近，分布越均匀
+ */
+export function getMinimumDistance(points: Position3D[]): number {
+  if (points.length < 2) return Infinity
+
+  let minDistance = Infinity
+
+  for (let i = 0; i < points.length; i++) {
+    for (let j = i + 1; j < points.length; j++) {
+      const dist = distance3D(points[i], points[j])
+      if (dist < minDistance) {
+        minDistance = dist
+      }
+    }
+  }
+
+  return minDistance
+}
+
+/**
+ * 计算一组点的平均最近邻距离（用于验证均匀性）
+ */
+export function getAverageNearestNeighborDistance(points: Position3D[]): number {
+  if (points.length < 2) return 0
+
+  let totalDistance = 0
+
+  for (let i = 0; i < points.length; i++) {
+    let nearestDistance = Infinity
+
+    for (let j = 0; j < points.length; j++) {
+      if (i === j) continue
+      const dist = distance3D(points[i], points[j])
+      if (dist < nearestDistance) {
+        nearestDistance = dist
+      }
+    }
+
+    totalDistance += nearestDistance
+  }
+
+  return totalDistance / points.length
+}
+
+/**
+ * 使用 Thomson 问题优化球面点分布（可选的更高级算法）
+ * 通过模拟电荷排斥来获得最均匀的分布
+ * 注意：这个算法计算量较大，适合少量点（< 100）
+ *
+ * @param initialPoints 初始点位置
+ * @param iterations 迭代次数
+ * @param stepSize 步长
+ * @returns 优化后的点位置
+ */
+export function optimizeSphereDistribution(
+  initialPoints: Position3D[],
+  iterations: number = 100,
+  stepSize: number = 0.1
+): Position3D[] {
+  const points = initialPoints.map(p => [...p] as Position3D)
+  const count = points.length
+
+  if (count <= 1) return points
+
+  for (let iter = 0; iter < iterations; iter++) {
+    // 对每个点计算受到的排斥力
+    for (let i = 0; i < count; i++) {
+      let forceX = 0
+      let forceY = 0
+      let forceZ = 0
+
+      // 计算其他点对当前点的排斥力
+      for (let j = 0; j < count; j++) {
+        if (i === j) continue
+
+        const dx = points[i][0] - points[j][0]
+        const dy = points[i][1] - points[j][1]
+        const dz = points[i][2] - points[j][2]
+        const distSq = dx * dx + dy * dy + dz * dz
+        const dist = Math.sqrt(distSq)
+
+        if (dist > 0) {
+          // 库仑力：F = k / r^2
+          const force = 1.0 / distSq
+          forceX += (dx / dist) * force
+          forceY += (dy / dist) * force
+          forceZ += (dz / dist) * force
+        }
+      }
+
+      // 应用力并移动点
+      points[i][0] += forceX * stepSize
+      points[i][1] += forceY * stepSize
+      points[i][2] += forceZ * stepSize
+
+      // 重新投影到球面上
+      const [nx, ny, nz] = normalize3D(points[i])
+      const radius = Math.sqrt(
+        initialPoints[i][0] ** 2 +
+        initialPoints[i][1] ** 2 +
+        initialPoints[i][2] ** 2
+      )
+      points[i][0] = nx * radius
+      points[i][1] = ny * radius
+      points[i][2] = nz * radius
+    }
+
+    // 逐渐减小步长
+    stepSize *= 0.99
+  }
+
+  return points
 }

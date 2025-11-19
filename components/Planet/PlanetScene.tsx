@@ -5,7 +5,8 @@ import { useFrame } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
 import * as THREE from 'three'
 import { getProjectsByCategory } from '@/lib/mockData'
-import { getFibonacciSpherePoints } from '@/lib/sphereLayout'
+import { getFibonacciSpherePoints, optimizeSphereDistribution } from '@/lib/sphereLayout'
+import { assignPresetsToProjects } from '@/lib/planetPresets'
 import { LAYOUT, CONTROLS, ANIMATION, LIGHTING } from '@/lib/constants'
 import type { Project } from '@/lib/types'
 import StarField from '../Effects/StarField'
@@ -14,6 +15,7 @@ import CrystalPlanet from './CrystalPlanet'
 interface PlanetSceneProps {
   categoryId: string
   onSelectProject: (project: Project) => void
+  hideLabels?: boolean
 }
 
 /**
@@ -23,6 +25,7 @@ interface PlanetSceneProps {
 export default function PlanetScene({
   categoryId,
   onSelectProject,
+  hideLabels = false,
 }: PlanetSceneProps) {
   const groupRef = useRef<THREE.Group>(null)
   const controlsRef = useRef<any>(null)
@@ -34,9 +37,16 @@ export default function PlanetScene({
     [categoryId]
   )
 
-  // 计算星球位置（球面均匀分布）
+  // 计算星球位置（球面均匀分布 + Thomson 优化）
   const planetPositions = useMemo(() => {
-    return getFibonacciSpherePoints(projects.length, LAYOUT.sphereRadius * 0.8)
+    const initialPoints = getFibonacciSpherePoints(projects.length, LAYOUT.sphereRadius * 0.8)
+    // 使用 Thomson 问题优化，迭代50次获得更均匀的分布
+    return optimizeSphereDistribution(initialPoints, 50, 0.1)
+  }, [projects.length])
+
+  // 为每个项目分配渲染预设（确保相邻星球不重复）
+  const planetPresets = useMemo(() => {
+    return assignPresetsToProjects(projects.length)
   }, [projects.length])
 
   // 自动旋转逻辑
@@ -77,10 +87,11 @@ export default function PlanetScene({
           <CrystalPlanet
             key={project.id}
             position={planetPositions[index]}
-            color={project.color || '#4ECDC4'}
             projectName={project.name}
             scale={LAYOUT.planetSize}
+            preset={planetPresets[index]}
             onClick={() => onSelectProject(project)}
+            hideLabel={hideLabels}
           />
         ))}
       </group>
