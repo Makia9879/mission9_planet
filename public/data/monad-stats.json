@@ -1,0 +1,67 @@
+{
+  "totalCategories": 12,
+  "totalProjects": 305,
+  "categoriesBreakdown": [
+    {
+      "category": "Infra",
+      "id": "infra",
+      "count": 32
+    },
+    {
+      "category": "Payments",
+      "id": "payments",
+      "count": 2
+    },
+    {
+      "category": "DeFi",
+      "id": "defi",
+      "count": 119
+    },
+    {
+      "category": "Cross-Chain",
+      "id": "cross-chain",
+      "count": 16
+    },
+    {
+      "category": "Analytics",
+      "id": "analytics",
+      "count": 27
+    },
+    {
+      "category": "Wallet",
+      "id": "wallet",
+      "count": 25
+    },
+    {
+      "category": "Oracle",
+      "id": "oracle",
+      "count": 13
+    },
+    {
+      "category": "NFT",
+      "id": "nft",
+      "count": 24
+    },
+    {
+      "category": "Gaming",
+      "id": "gaming",
+      "count": 20
+    },
+    {
+      "category": "Social",
+      "id": "social",
+      "count": 7
+    },
+    {
+      "category": "AI",
+      "id": "ai",
+      "count": 18
+    },
+    {
+      "category": "RWA",
+      "id": "rwa",
+      "count": 2
+    }
+  ],
+  "generatedAt": "2025-11-20T02:02:31.822Z"
+}

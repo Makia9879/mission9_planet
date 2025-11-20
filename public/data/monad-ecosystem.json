@@ -1,0 +1,3626 @@
+{
+  "categories": [
+    {
+      "id": "infra",
+      "name": "Infra",
+      "description": "Infra projects on Monad",
+      "color": "#6C5CE7"
+    },
+    {
+      "id": "payments",
+      "name": "Payments",
+      "description": "Payments projects on Monad",
+      "color": "#00B894"
+    },
+    {
+      "id": "defi",
+      "name": "DeFi",
+      "description": "DeFi projects on Monad",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "cross-chain",
+      "name": "Cross-Chain",
+      "description": "Cross-Chain projects on Monad",
+      "color": "#FDCB6E"
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics",
+      "description": "Analytics projects on Monad",
+      "color": "#FD79A8"
+    },
+    {
+      "id": "wallet",
+      "name": "Wallet",
+      "description": "Wallet projects on Monad",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "description": "Oracle projects on Monad",
+      "color": "#FFE66D"
+    },
+    {
+      "id": "nft",
+      "name": "NFT",
+      "description": "NFT projects on Monad",
+      "color": "#A8E6CF"
+    },
+    {
+      "id": "gaming",
+      "name": "Gaming",
+      "description": "Gaming projects on Monad",
+      "color": "#95E1D3"
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "description": "Social projects on Monad",
+      "color": "#FF7675"
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "description": "AI projects on Monad",
+      "color": "#A29BFE"
+    },
+    {
+      "id": "rwa",
+      "name": "RWA",
+      "description": "RWA projects on Monad",
+      "color": "#FDCB6E"
+    }
+  ],
+  "projects": [
+    {
+      "id": "0x",
+      "categoryId": "infra",
+      "name": "0x",
+      "description": "0x allows you to embed swaps in any onchain app. Tap into aggregated liquidity from 130+ sources, best prices & optimal trade execution.",
+      "website": "https://0x.org/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "acurast",
+      "categoryId": "infra",
+      "name": "Acurast",
+      "description": "Confidential AI, hyper-personalized agents, and privacy-focused computation using thousands of smartphones worldwide.",
+      "website": "https://acurast.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "alldomains",
+      "categoryId": "infra",
+      "name": "AllDomains",
+      "description": "AllDomains: the web3 identity asset layer to create and trade web3 domains | Customizable for everyone.",
+      "website": "https://monad.alldomains.id/",
+      "tvl": "N/A",
+      "tags": [
+        "Identity"
+      ]
+    },
+    {
+      "id": "biconomy",
+      "categoryId": "infra",
+      "name": "Biconomy",
+      "description": "Biconomy helps devs build user-friendly dApps with modular tools. Our stack powers 300+ dApps & 50M+ transactions, accelerating adoption.",
+      "website": "http://biconomy.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction"
+      ]
+    },
+    {
+      "id": "blockstreet",
+      "categoryId": "infra",
+      "name": "BlockStreet",
+      "description": "Unified liquidity layer for tokenized equities - delivering secure settlement, deep liquidity, and institutional-grade efficiency.",
+      "website": "https://blockstreet.money/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "blockdaemon",
+      "categoryId": "infra",
+      "name": "Blockdaemon",
+      "description": "Blockdaemon provides enterprise-grade web3 infrastructure, including dedicated nodes, APIs, staking, liquid staking, MPC wallets, and more.",
+      "website": "https://www.blockdaemon.com/",
+      "tvl": "N/A",
+      "tags": [
+        "RPC"
+      ]
+    },
+    {
+      "id": "capa",
+      "categoryId": "infra",
+      "name": "Capa",
+      "description": "Capa connects LATAM to global finance. It simplifies global payments, enabling companies to move money across borders via stablecoins.",
+      "website": "https://capa.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Onramp",
+        "Stablecoin"
+      ]
+    },
+    {
+      "id": "cyferio",
+      "categoryId": "infra",
+      "name": "Cyferio",
+      "description": "Award-winning Cyferio Hub offers modular FHE rollup tech for confidential, scalable blockchain computing and privacy-preserving apps.",
+      "website": "https://cyferio.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Privacy",
+        "Zero-Knowledge"
+      ]
+    },
+    {
+      "id": "drpc",
+      "categoryId": "infra",
+      "name": "DRPC",
+      "description": "dRPC is an off-chain routing protocol for delivering reliable API infrastructure leveraging a distributed network of nodes.",
+      "website": "https://drpc.org/",
+      "tvl": "N/A",
+      "tags": [
+        "RPC"
+      ]
+    },
+    {
+      "id": "dialect",
+      "categoryId": "infra",
+      "name": "Dialect",
+      "description": "A toolkit to integrate onchain experiences into your app, instantly.",
+      "website": "http://www.dialect.to/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "doppler",
+      "categoryId": "infra",
+      "name": "Doppler",
+      "description": "Doppler is an easy to integrate token creation protocol. It automates finding fair prices and getting AMMs like Uniswap bootstrapped.",
+      "website": "https://doppler.lol/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "dynamic",
+      "categoryId": "infra",
+      "name": "Dynamic",
+      "description": "Dynamic combines authentication, smart wallets, and secure key management into one flexible SDK.",
+      "website": "https://www.dynamic.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction"
+      ]
+    },
+    {
+      "id": "gateway",
+      "categoryId": "infra",
+      "name": "Gateway",
+      "description": "Gateway is making encrypted data as programmable as public state, allowing for full execution over high-value data.",
+      "website": "https://gateway.tech/",
+      "tvl": "N/A",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "id": "gelato",
+      "categoryId": "infra",
+      "name": "Gelato",
+      "description": "Gelato Web3 Services bring enhanced UX to Monad's high-speed L1, enabling devs build automated apps with gasless transactions & VRF.",
+      "website": "https://www.gelato.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "RPC"
+      ]
+    },
+    {
+      "id": "goplus",
+      "categoryId": "infra",
+      "name": "GoPlus",
+      "description": "Redefining Web3 user security with its Modular User Security Layer, offering open access to security intelligence and firewall services.",
+      "website": "http://gopluslabs.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "index-network",
+      "categoryId": "infra",
+      "name": "Index Network",
+      "description": "The first intent graph for social interactions, a new primitive where people express what they want and AI agents deliver best matches/",
+      "website": "https://index.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Identity",
+        "Dev Tooling",
+        "Privacy"
+      ]
+    },
+    {
+      "id": "lombard",
+      "categoryId": "infra",
+      "name": "Lombard",
+      "description": "Lombard connects Bitcoin to every chain, defi protocol, and yield opportunity via LBTC. LBTC currently has $1.9B+ in deposits.",
+      "website": "https://lombard.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "mentaport",
+      "categoryId": "infra",
+      "name": "Mentaport",
+      "description": "Keep your creative works safe from the internet troublemakers.",
+      "website": "https://twitter.com/mentaportinc",
+      "tvl": "N/A",
+      "tags": [
+        "Identity",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "notifi",
+      "categoryId": "infra",
+      "name": "Notifi",
+      "description": "Real-time, white-labeled alerts for on/off-chain events (loan health, liquidity, etc.) in DeFi via email, Telegram, Discord, & more.",
+      "website": "https://notifi.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "osl-pay",
+      "categoryId": "infra",
+      "name": "OSL Pay",
+      "description": "OSL Pay, the licensed payments arm of OSL Group, delivers secure, compliant digital-to-fiat conversion for global clients.",
+      "website": "https://www.osl-pay.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Onramp"
+      ]
+    },
+    {
+      "id": "poink",
+      "categoryId": "infra",
+      "name": "POINK",
+      "description": "Poink lets users interact with Web3 directly on X (Twitter), helping dapps onboard users directly from X.",
+      "website": "https://poink.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "primus",
+      "categoryId": "infra",
+      "name": "Primus",
+      "description": "Primus enables secure AI operations and data processing with zkTLS and zkFHE, driving blockchain innovation.",
+      "website": "https://primuslabs.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Zero-Knowledge"
+      ]
+    },
+    {
+      "id": "quicknode",
+      "categoryId": "infra",
+      "name": "QuickNode",
+      "description": "QuickNode provides blockchain infrastructure and tools for Web3 development, offering high-performance access to 60+ blockchains.",
+      "website": "https://www.quicknode.com/",
+      "tvl": "N/A",
+      "tags": [
+        "RPC"
+      ]
+    },
+    {
+      "id": "relend-network",
+      "categoryId": "infra",
+      "name": "Relend Network",
+      "description": "Relend Network supplies rUSDC into Monad money markets.",
+      "website": "https://relend.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Stablecoin"
+      ]
+    },
+    {
+      "id": "reown",
+      "categoryId": "infra",
+      "name": "Reown",
+      "description": "Reown gives developers the tools to build user experiences that make digital ownership effortless, intuitive, and secure.",
+      "website": "https://reown.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "stakestone",
+      "categoryId": "infra",
+      "name": "StakeStone",
+      "description": "Omnichain liquidity infrastructure for yield-bearing assets, redistributing liquidity across chains and protocols through Liquidity Pad.",
+      "website": "https://stakestone.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "sunscreen",
+      "categoryId": "infra",
+      "name": "Sunscreen",
+      "description": "Sunscreen transforms advanced FHE research into real-world cryptography tools, bringing post-quantum privacy to web3.",
+      "website": "https://sunscreen.tech/",
+      "tvl": "N/A",
+      "tags": [
+        "Privacy"
+      ]
+    },
+    {
+      "id": "tarobase",
+      "categoryId": "infra",
+      "name": "Tarobase",
+      "description": "Build on-chain apps with Tarobase—from Venmo & Pump.fun clones to endless possibilities—without writing smart contracts.",
+      "website": "https://tarobase.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "townsquare",
+      "categoryId": "infra",
+      "name": "TownSquare",
+      "description": "Modular money market & yield layer for next-gen onchain assets & RWAs, with crosschain interoperability",
+      "website": "https://www.townsq.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Other Infra",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "triton-one",
+      "categoryId": "infra",
+      "name": "Triton One",
+      "description": "Triton One is a bare-metal RPC service provider for high-throughput blockchains. Build, iterate, and ship faster with Triton.",
+      "website": "https://triton.one/",
+      "tvl": "N/A",
+      "tags": [
+        "RPC"
+      ]
+    },
+    {
+      "id": "web3auth",
+      "categoryId": "infra",
+      "name": "Web3Auth",
+      "description": "Web3Auth simplifies Web3 access with social logins, customisable wallet UI & advanced security, with non-custodial MPC wallet management.",
+      "website": "https://web3auth.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction"
+      ]
+    },
+    {
+      "id": "winks-fun",
+      "categoryId": "infra",
+      "name": "Winks.fun",
+      "description": "Winks enable end-to-end on-chain actions within social media apps, without any middleware!",
+      "website": "https://www.winks.fun/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "ausd",
+      "categoryId": "payments",
+      "name": "AUSD",
+      "description": "Agora is a stablecoin issuer of AUSD, backed 1:1 by cash and cash equivalent reserves managed by VanEck and custodied by State Street.",
+      "website": "https://agora.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA",
+        "Payments"
+      ]
+    },
+    {
+      "id": "dau-cards",
+      "categoryId": "payments",
+      "name": "DAU Cards",
+      "description": "DAU Cards bridges your crypto to everyday spending in seconds. Our interface-agnostic platform unlocks access to 40M+ global merchants.",
+      "website": "https://gmonad.daucards.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Payments",
+        "RWA"
+      ]
+    },
+    {
+      "id": "azex",
+      "categoryId": "defi",
+      "name": "AZEx",
+      "description": "Your A-Z DeFi Hub in One Click. Trade any asset as margin with 100x leverage. Multi-Chain Protocol. AI-Powered Copytrading.",
+      "website": "https://azex.io/home",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "aarna",
+      "categoryId": "defi",
+      "name": "Aarna",
+      "description": "Next-generation DeFi asset management platform via crypto structured products, merging AI and tokenization.",
+      "website": "https://www.aarna.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI"
+      ]
+    },
+    {
+      "id": "accountable",
+      "categoryId": "defi",
+      "name": "Accountable",
+      "description": "YieldApp is the first yield marketplace backed by live, cryptographically verifiable data users can trust.",
+      "website": "https://yield.accountable.capital/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "aethonswap",
+      "categoryId": "defi",
+      "name": "AethonSwap",
+      "description": "AethonSwap is a CLAMM V4 DEX combining next-gen tech with intelligent design, for low-slippage trading & efficient liquidity management",
+      "website": "https://www.aethonswap.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "ambient",
+      "categoryId": "defi",
+      "name": "Ambient",
+      "description": "Spot AMM with combining multiple liquidity types with modular hooks, dynamic fees and MEV protection.",
+      "website": "https://monad.ambient.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "amertis",
+      "categoryId": "defi",
+      "name": "Amertis",
+      "description": "Connecting users to deep liquidity across multiple sources, ensuring the best rates, minimal slippage, and an optimised DeFi experience.",
+      "website": "https://amertis.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "ammalgam",
+      "categoryId": "defi",
+      "name": "Ammalgam",
+      "description": "Ammalgam is a new primitive that combines lending and trading into one protocol called a Decentralized Lending Exchange.",
+      "website": "https://alpha.ammalgam.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "apebond",
+      "categoryId": "defi",
+      "name": "ApeBond",
+      "description": "The #1 Bonding Protocol in DeFi, with $20M+ bonded and 80k+ bonds sold, transforming how projects raise funds and secure liquidity.",
+      "website": "https://ape.bond/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "apriori",
+      "categoryId": "defi",
+      "name": "Apriori",
+      "description": "aPriori is an MEV infrastructure and liquid staking protocol, designed for the parallel execution era and natively built on Monad.",
+      "website": "http://testnet-staking.apr.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "atlantis",
+      "categoryId": "defi",
+      "name": "Atlantis",
+      "description": "Modular V4 DEX offering cross-chain swaps, DeFAI, a launchpad, farming, staking, fiat on-ramp, & more.",
+      "website": "https://atlantisdex.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI"
+      ]
+    },
+    {
+      "id": "azaar",
+      "categoryId": "defi",
+      "name": "Azaar",
+      "description": "Azaar is a high-performance DEX aggregator and trading platform built for Monad.",
+      "website": "https://azaar.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "balancer",
+      "categoryId": "defi",
+      "name": "Balancer",
+      "description": "Balancer is a decentralized automated market maker (AMM) protocol built on Ethereum.",
+      "website": "https://balancer.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "bean-exchange",
+      "categoryId": "defi",
+      "name": "Bean Exchange",
+      "description": "Bean Exchange is a gamified decentralized spot & perpetual exchange natively built on Monad Network.",
+      "website": "https://bean.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "bebop",
+      "categoryId": "defi",
+      "name": "Bebop",
+      "description": "Seamless and efficient crypto trading for everyone. Web3 trading app and API that finds the best route for all your trades.",
+      "website": "https://bebop.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "bima",
+      "categoryId": "defi",
+      "name": "Bima",
+      "description": "BIMA is a DeFi platform that lets you earn yield on your BTC across multiple chains by using USBD, a Bitcoin-backed stablecoin.",
+      "website": "https://bima.money/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "birdeye",
+      "categoryId": "defi",
+      "name": "Birdeye",
+      "description": "The all-in-one trading data tool for alpha traders: real-time charts, smart money flows, gems & historical data across 300+ exchanges.",
+      "website": "https://birdeye.so/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "blazpay",
+      "categoryId": "defi",
+      "name": "Blazpay",
+      "description": "Blazpay AI: Simplifying Crypto | 1.2M+ Users | AI-Swap | Portfolio | Alerts | Cross-Chain | Gamified Learning | Multi-Platform",
+      "website": "https://blazpay.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI"
+      ]
+    },
+    {
+      "id": "buzzing-club",
+      "categoryId": "defi",
+      "name": "Buzzing Club",
+      "description": "Buzzing Club is an app where users trade opinions on trending topics.",
+      "website": "https://www.buzzing.club/",
+      "tvl": "N/A",
+      "tags": [
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "cplx",
+      "categoryId": "defi",
+      "name": "CPLX",
+      "description": "Institutional-grade DeFi derivatives exchange. Unified liquidity pools & pioneering RWA products. Built by TradFi exchange pioneers.",
+      "website": "https://cplx.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "cult",
+      "categoryId": "defi",
+      "name": "CULT",
+      "description": "Cult is where culture meets crypto. A new reputation system rewards loyalty for holders, tokens, and creators alike.",
+      "website": "https://www.cult.trade/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "DeFi",
+        "AI"
+      ]
+    },
+    {
+      "id": "caddy-finance",
+      "categoryId": "defi",
+      "name": "Caddy Finance",
+      "description": "Building Bitcoin yield vaults for retail, aggregated retail liquidity for institutional yields.",
+      "website": "https://caddy.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "castora",
+      "categoryId": "defi",
+      "name": "Castora",
+      "description": "Funfair price prediction markets on Monad.",
+      "website": "https://castora.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "celeris",
+      "categoryId": "defi",
+      "name": "Celeris",
+      "description": "Celeris is the first fully on-chain orderbook Perps++ DEX that is fully permissionless with ultra-low latency & parallelized liquidity.",
+      "website": "https://celeris.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "clober",
+      "categoryId": "defi",
+      "name": "Clober",
+      "description": "Clober is a fully on-chain CLOB DEX protocol with a gas-efficient matching engine optimized for on-chain execution.",
+      "website": "https://alpha.clober.io/?utm_source=monad_eco&utm_medium=referral",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "covenant",
+      "categoryId": "defi",
+      "name": "Covenant",
+      "description": "Lever up your favorite token, or earn yield, through liquid, tradeable debt markets.",
+      "website": "https://covenant.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "crust-finance",
+      "categoryId": "defi",
+      "name": "Crust Finance",
+      "description": "Crust Finance is a metadex with concentrated liquidity and native ALM support, built on Monad.",
+      "website": "https://crust.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "crystal",
+      "categoryId": "defi",
+      "name": "Crystal",
+      "description": "Crystal is a fully on-chain CLOB exchange that brings CEX-grade performance to the EVM without compromising on security or composability.",
+      "website": "https://crystal.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "curvance",
+      "categoryId": "defi",
+      "name": "Curvance",
+      "description": "Curvance is a multichain liquidity protocol that maximizes capital efficiency in DeFi.",
+      "website": "https://monad.curvance.com/monad",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "dashx",
+      "categoryId": "defi",
+      "name": "DashX",
+      "description": "DashX: One-click payments for everything. A DeFi platform with the fastest cross-chain transactions, ramps, and rewards!",
+      "website": "https://dashx.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "dirol-protocol",
+      "categoryId": "defi",
+      "name": "Dirol Protocol",
+      "description": "Dirol is a native DeFi Hub on Monad with a full suite of DeFi features. You can do everything on Dirol.",
+      "website": "https://dex.dirol.io/swap",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "discocats",
+      "categoryId": "defi",
+      "name": "DiscoCats",
+      "description": "We make locked assets liquid, offering multi-layer yield through Liquid NFTs and Bribe mechanisms with our four products.",
+      "website": "https://mydiscocats.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "drake",
+      "categoryId": "defi",
+      "name": "Drake",
+      "description": "Drake's hybrid CLOB unlocks CEX speed, DEX transparency, and frictionless yields, resulting in what matters most: perps that feel right",
+      "website": "https://drake.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "dyson-finance",
+      "categoryId": "defi",
+      "name": "Dyson Finance",
+      "description": "Dyson Finance makes DeFi more inclusive and profitable by combining dynamic AMM, Dual Investment, and a Membership Program.",
+      "website": "https://dyson.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "elfi",
+      "categoryId": "defi",
+      "name": "ELFi",
+      "description": "ELFi is the first DEX with ultra portfolio margin & zero-risk stablecoin pool. No KYC. $1.62B volume, 32K users, up to 1000x leverage.",
+      "website": "https://www.elfi.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "eisen-finance",
+      "categoryId": "defi",
+      "name": "Eisen Finance",
+      "description": "Eisen is a multichain DEX aggregator expanding with V2 to unify CEX/DEX spot & derivatives for advanced DeFi strategies.",
+      "website": "https://eisenfinance.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "enjoyoors",
+      "categoryId": "defi",
+      "name": "Enjoyoors",
+      "description": "Enoyoors is a protocol that unlocks yield on any asset on any chain.",
+      "website": "https://enjoyoors.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "euler",
+      "categoryId": "defi",
+      "name": "Euler",
+      "description": "Euler revolutionizes DeFi by letting any asset become collateral for a lending market.",
+      "website": "http://euler.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "fuku",
+      "categoryId": "defi",
+      "name": "FUKU",
+      "description": "A Defi Saving protocol on Monad, blending savings with the excitement of betting and winning prizes without risking your deposit.",
+      "website": "https://testnet.fukunad.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Betting"
+      ]
+    },
+    {
+      "id": "fwx",
+      "categoryId": "defi",
+      "name": "FWX",
+      "description": "FWX: Permissionless leverage trading on DEX. Add any token, create a lending pool, and margin trade. Lenders are protected via hedging.",
+      "website": "https://fwx.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "fastlane",
+      "categoryId": "defi",
+      "name": "FastLane",
+      "description": "FastLane is an MEV protocol for validators + apps with an integrated 4337 bundler, an on-chain task scheduler, and the first holistic LST.",
+      "website": "https://www.fastlane.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "flap",
+      "categoryId": "defi",
+      "name": "Flap",
+      "description": "Launch your coin with just one click on Monad with Flap, the premier memecoin launchpad.",
+      "website": "https://monad.flap.sh/board",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "folks-finance",
+      "categoryId": "defi",
+      "name": "Folks Finance",
+      "description": "Folks Finance offers cross-chain lending, borrowing, staking and trading, building the TradFi experience on a DeFi foundation.",
+      "website": "https://folks.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "gasp",
+      "categoryId": "defi",
+      "name": "Gasp",
+      "description": "Gasp is a cross-chain DEX for exchanging crypto across blockchains like Ethereum L2s, Solana, Bitcoin, RWA, and much more.",
+      "website": "https://www.gasp.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "gearbox-protocol",
+      "categoryId": "defi",
+      "name": "Gearbox Protocol",
+      "description": "Gearbox is DeFi’s credit layer: permissionless lending for institutional-grade efficiency and yield.",
+      "website": "https://gearbox.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "gorillionaire",
+      "categoryId": "defi",
+      "name": "Gorillionaire",
+      "description": "Gorillionaire transforms blockchain data chaos into clear signals. Compete on leaderboards while our intelligence guides your trades.",
+      "website": "https://www.gorillionai.re/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Prediction Market",
+        "Social"
+      ]
+    },
+    {
+      "id": "hashflow",
+      "categoryId": "defi",
+      "name": "Hashflow",
+      "description": "Hashflow is the leading RFQ protocol that connects professional market makers and takers—powering $25B+ in volume across multiple chains.",
+      "website": "https://app.hashflow.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "hive",
+      "categoryId": "defi",
+      "name": "Hive",
+      "description": "Hive is a native stablecoin protocol on Monad, unlocking real yield, liquidity, through native-chain collateral and active deployment.",
+      "website": "https://bhive.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "infinit",
+      "categoryId": "defi",
+      "name": "INFINIT",
+      "description": "INFINIT is the first DeFi Abstraction Layer that enables permissionless creation of DeFi Agents to simplify on-chain transactions.",
+      "website": "https://infinit.tech/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "izumi-finance",
+      "categoryId": "defi",
+      "name": "IZUMi Finance",
+      "description": "iZUMi Finance is a multi-chain DeFi protocol providing one-stop DEX-as-a-Service (DaaS).",
+      "website": "https://alpha.izumi.finance/trade/swap",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "impossible-finance",
+      "categoryId": "defi",
+      "name": "Impossible Finance",
+      "description": "A research advisory firm with a DeFi launchpad. Empowering users with top-tier opportunities.",
+      "website": "https://impossible.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "jenius",
+      "categoryId": "defi",
+      "name": "Jenius",
+      "description": "Tiktok x PumpFun sprinkled with AI. Users can tokenize content, graduate and join the wild ride to viral videos",
+      "website": "https://jenius.rndm.io/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "jumper-exchange",
+      "categoryId": "defi",
+      "name": "Jumper Exchange",
+      "description": "Jumper Exchange lets users swap and bridge across 50+ chains, finding the best rates from top bridges, DEXs, and liquidity sources.",
+      "website": "https://jumper.exchange/?utm_source=monad_ecosystem&utm_medium=referral&utm_campaign=monad_integration",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "kansei",
+      "categoryId": "defi",
+      "name": "Kansei",
+      "description": "All-in-one trading superapp with near instant UX, decentralized",
+      "website": "https://kansei.finance/trade",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "kiloex",
+      "categoryId": "defi",
+      "name": "KiloEx",
+      "description": "KiloEx is the next generation of user-friendly perpetual DEX, fully integration with LSTfi. Backed by Binance Labs.",
+      "website": "https://www.kiloex.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "kintsu",
+      "categoryId": "defi",
+      "name": "Kintsu",
+      "description": "Kintsu is setting a new paradigm in Liquid Staking, fully native to Monad with DAO curated Validator Registry weights.",
+      "website": "https://kintsu.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "kinza-finance",
+      "categoryId": "defi",
+      "name": "Kinza Finance",
+      "description": "Permissionless lending.",
+      "website": "https://monad-test.kinza.finance/#/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "kuru",
+      "categoryId": "defi",
+      "name": "Kuru",
+      "description": "Find, trade and launch your coins on a fully on-chain CLOB. Built for traders, powered by Monad.",
+      "website": "https://kuru.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "lagoon",
+      "categoryId": "defi",
+      "name": "LAGOON",
+      "description": "LAGOON is an EVM-based vault infrastructure for curators, turning sophisticated farming strategies into 1-click yield products.",
+      "website": "https://lagoon.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "levr-bet",
+      "categoryId": "defi",
+      "name": "LEVR.bet",
+      "description": "Leverage Sports Betting with Fully Liquid Positions.",
+      "website": "http://levr.bet/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Betting"
+      ]
+    },
+    {
+      "id": "lfj",
+      "categoryId": "defi",
+      "name": "LFJ",
+      "description": "The onchain trading platform built for winners. One-stop DEX, Aggregator & Screener for Monad. Discover & buy every token at the best prices.",
+      "website": "https://pandaria.lfj.gg/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "leverup",
+      "categoryId": "defi",
+      "name": "LeverUp",
+      "description": "Next-gen perps DEX with LP-free trading, deep liquidity, and up to 1001x leverage.",
+      "website": "https://leverup.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "likwid",
+      "categoryId": "defi",
+      "name": "Likwid",
+      "description": "The first fully permissionless, oracle-less, margin trading protocol based on uniswap V4.",
+      "website": "https://likwid.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "mace",
+      "categoryId": "defi",
+      "name": "Mace",
+      "description": "Mace is a DEX aggregator on Monad that optimizes trades by routing through AMMs, orderbooks & RFQ market makers for best execution.",
+      "website": "https://www.mace.ag/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "mach-exchange",
+      "categoryId": "defi",
+      "name": "Mach Exchange",
+      "description": "Mach Exchange is a one click onboarding tool, allowing any users to instantly and securely onboard from any crypto asset on any chain.",
+      "website": "https://mach.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "madhouse",
+      "categoryId": "defi",
+      "name": "Madhouse",
+      "description": "Madhouse is a DEX aggregator on Monad that finds the best swap rates by routing trades across all major liquidity sources.",
+      "website": "https://madhouse.ag/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "magma",
+      "categoryId": "defi",
+      "name": "Magma",
+      "description": "Magma is a Liquid Staking Protocol building the first Distributed Validator on Monad and developing MEV to reduce latency by up to 4x.",
+      "website": "https://www.magmastaking.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "memesteroid",
+      "categoryId": "defi",
+      "name": "Memesteroid",
+      "description": "Memesteroid powers the full lifecycle of memecoins with prediction markets and perps from viral launch to maturity.",
+      "website": "https://memesteroid.fun/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "monday-trade",
+      "categoryId": "defi",
+      "name": "Monday Trade",
+      "description": "Monday Trade is Monad’s native spot DEX combining the precision of a fully on-chain order book with the simplicity of AMMs.",
+      "website": "https://monday.trade/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "monorail",
+      "categoryId": "defi",
+      "name": "Monorail",
+      "description": "Trade anything across Monad. Monorail is the first aggregator to combine onchain orderbooks and AMMs to give you the best trade possible.",
+      "website": "https://monorail.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "morpheus",
+      "categoryId": "defi",
+      "name": "Morpheus",
+      "description": "Launch a token, trade, and market-make in one step with Morpheus - a Monad-based DEX using CMM and Wormhole NTT for cross-chain flow.",
+      "website": "https://morpheus.farm/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "mu-digital",
+      "categoryId": "defi",
+      "name": "Mu Digital",
+      "description": "RWA protocol bringing Asia's Best Yields Onchain.",
+      "website": "https://mudigital.net/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "multipli-fi",
+      "categoryId": "defi",
+      "name": "Multipli.fi",
+      "description": "Multipli is a Zk based yield protocol specifically designed for making yield on traditionally non-yield bearing assets.",
+      "website": "https://multipli.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "nxtchain",
+      "categoryId": "defi",
+      "name": "NXTchain",
+      "description": "NXTchain empowers anyone to join the decentralized cloud through plug-and-play devices or data center ownership.",
+      "website": "https://www.nxtchain.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN"
+      ]
+    },
+    {
+      "id": "nabla-finance",
+      "categoryId": "defi",
+      "name": "Nabla Finance",
+      "description": "Nabla Finance is a yield protocol where the yield is generated by the hyper-efficient Nabla AMM.",
+      "website": "https://www.twitter.com/nablafi",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "nad-fun",
+      "categoryId": "defi",
+      "name": "Nad.fun",
+      "description": "Nad.fun is a Social Memecoin Playground powered by Monad, enabling seamless token launches and trading.",
+      "website": "https://testnet.nad.fun/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "nadsmith",
+      "categoryId": "defi",
+      "name": "NadSmith",
+      "description": "AI Agent OS on Monad | Tokenizing Agents & Automating Markets - built exclusively on Monad.",
+      "website": "",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "narrative",
+      "categoryId": "defi",
+      "name": "Narrative",
+      "description": "Perpetual information markets",
+      "website": "https://www.testnet.narrative.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Other Apps",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "narwhal-finance",
+      "categoryId": "defi",
+      "name": "Narwhal Finance",
+      "description": "Narwhal Finance is an AI-driven decentralized perpetual trading platform exclusively on Monad. Backed by Jump Crypto and CMS Holdings.",
+      "website": "https://testnet.narwhal.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "neverland",
+      "categoryId": "defi",
+      "name": "Neverland",
+      "description": "Neverland is a Monad-native lending protocol blending Aave V3 security with novel veTokenomics, self-repaying loans & yield strategies.",
+      "website": "https://neverland.money/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Governance"
+      ]
+    },
+    {
+      "id": "nitrofinance",
+      "categoryId": "defi",
+      "name": "NitroFinance",
+      "description": "NitroFinance: An AMM on steroids—fusing DEX and Money Market into one pool to maximize efficiency and simplify liquidity management.",
+      "website": "https://nitrofinance.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "nostra",
+      "categoryId": "defi",
+      "name": "Nostra",
+      "description": "Nostra is the crypto Super App where users can lend, borrow, swap and bridge cryptocurrencies.",
+      "website": "https://monad.nostra.finance/lend-borrow",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "nunchi",
+      "categoryId": "defi",
+      "name": "Nunchi",
+      "description": "A perpetuals exchange for the invisible currents of finance. Long or short any yield. Sense the unsaid. Trade the unseen.",
+      "website": "https://nunchi.trade/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "octoswap",
+      "categoryId": "defi",
+      "name": "OctoSwap",
+      "description": "OctoSwap offers lightning-fast token swaps and capital-efficient liquidity pools with a user friendly interface.",
+      "website": "https://octo.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "openocean",
+      "categoryId": "defi",
+      "name": "OpenOcean",
+      "description": "A leading DEX aggregator on 30+ chains, with its swap API powering 180+ projects like MetaMask, Rabby, Li.Fi, and more.",
+      "website": "https://openocean.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "orderly",
+      "categoryId": "defi",
+      "name": "Orderly",
+      "description": "Infra that lets anyone trade anything, anywhere. Our permissionless liquidity layer provides deep, unified liquidity via a shared orderbook.",
+      "website": "https://orderly.network/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "owlto-finance",
+      "categoryId": "defi",
+      "name": "Owlto Finance",
+      "description": "Owlto Finance is an intent-centric interoperability protocol - bridge the world with AI agents.",
+      "website": "https://owlto.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "pancakeswap",
+      "categoryId": "defi",
+      "name": "PancakeSwap",
+      "description": "Trade and earn crypto on the all-in-one decentralized exchange. Enjoy low fees, high liquidity, and a user-friendly interface.",
+      "website": "https://pancakeswap.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "pecker",
+      "categoryId": "defi",
+      "name": "Pecker",
+      "description": "Pecker is a liquidity layer on Monad for stables and LSTs, solving fragmentation slippage and yield inefficiency with unified tokens",
+      "website": "https://pecker.so/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "peridot",
+      "categoryId": "defi",
+      "name": "Peridot",
+      "description": "Peridot Protocol is a Cross-Chain Money Market enabling seamless Lending & Borrowing across all integrated Blockchains",
+      "website": "https://peridot.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Governance",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "perpl",
+      "categoryId": "defi",
+      "name": "Perpl",
+      "description": "Perpl is a CLOB‑based perpetual futures DEX.",
+      "website": "https://perpl.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "pingu-exchange",
+      "categoryId": "defi",
+      "name": "Pingu Exchange",
+      "description": "Pingu Exchange is a fully on-chain, coin-margined Perp DEX with top-tier performance for traders of all sizes to access global markets.",
+      "website": "https://pingu.exchange/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "primex-finance",
+      "categoryId": "defi",
+      "name": "Primex Finance",
+      "description": "Primex Finance is a leveraged farming & trading protocol offering top APYs & margin trading for unlimited tokens on DEXs.",
+      "website": "https://primex.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA",
+        "AI"
+      ]
+    },
+    {
+      "id": "proof-of-skill",
+      "categoryId": "defi",
+      "name": "Proof-of-Skill",
+      "description": "A protocol to verify real-world skills along with ID & work history, enabling faster, smarter skill-based hiring.",
+      "website": "https://proofofskill.org/",
+      "tvl": "N/A",
+      "tags": [
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "puffer-finance",
+      "categoryId": "defi",
+      "name": "Puffer Finance",
+      "description": "Puffer Finance is a leading liquid staking protocol that lets users stake $ETH, receive $pufETH, and access DeFi opportunities.",
+      "website": "https://linktr.ee/puffer_finance",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "pumpbtc",
+      "categoryId": "defi",
+      "name": "PumpBTC",
+      "description": "PumpBTC’s aim to allow Bitcoin holders to maximize their returns by participating in DeFi with security, scalability, and transparency.",
+      "website": "https://testnet.pumpbtc.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "purps",
+      "categoryId": "defi",
+      "name": "Purps",
+      "description": "A perpetual DEX and liquidity hub on Monad, offering deep liquidity, fast trading, and support for native projects.",
+      "website": "https://www.purps.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "rabble",
+      "categoryId": "defi",
+      "name": "Rabble",
+      "description": "Rabble is a MultiChain telegram client, now on Monad. Explore 1 click Monad DeFi apps baked into the Telegram social graph.",
+      "website": "https://app.rabble.pro/?utm=MONAD",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "AI",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "rarebetsports",
+      "categoryId": "defi",
+      "name": "RareBetSports",
+      "description": "Building consumer sports applications powered by the RBS Oracle. Play RareLink and win up to 100x your crypto.",
+      "website": "https://rarelink.rarebetsports.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Betting",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "rayvo",
+      "categoryId": "defi",
+      "name": "Rayvo",
+      "description": "First web3 smart glasses that combine AI, decentralized data ownership, and wear-to-earn rewards.",
+      "website": "https://rayvo.gitbook.io/rayvo",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN"
+      ]
+    },
+    {
+      "id": "renzo",
+      "categoryId": "defi",
+      "name": "Renzo",
+      "description": "Renzo simplifies restaking with AVS strategies for LRTs, supporting $ezETH, $pzETH, and $ezSOL on Ethereum & Solana.",
+      "website": "https://www.renzoprotocol.com/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "rubic",
+      "categoryId": "defi",
+      "name": "Rubic",
+      "description": "Rubic. Your Best Rate Finder across 90+ chains and 360+ DEXs and bridges. For users and dApps.",
+      "website": "https://twitter.com/CryptoRubic",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "stage-fun",
+      "categoryId": "defi",
+      "name": "STAGE.fun",
+      "description": "STAGE.fun is a crowdfunding platform for festivals and events.",
+      "website": "https://stage.fun/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "sela-network",
+      "categoryId": "defi",
+      "name": "Sela Network",
+      "description": "With Sela Network, users run nodes, earn rewards & power real transactions. Sela transforms idle computing power into a global data infrastructure",
+      "website": "https://www.selanetwork.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN"
+      ]
+    },
+    {
+      "id": "sherpa",
+      "categoryId": "defi",
+      "name": "Sherpa",
+      "description": "On-chain automation made simple: users can leverage AI to trade, earn, and dominate the DeFi landscape strategically.",
+      "website": "https://app.sherpa.trade/lander",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "solv-protocol",
+      "categoryId": "defi",
+      "name": "Solv Protocol",
+      "description": "Solv Protocol is the On-Chain Bitcoin Reserve, connecting TradFi, CeFi, and DeFi to unlock Bitcoin's $1T+ potential.",
+      "website": "https://solv.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "spine-finance",
+      "categoryId": "defi",
+      "name": "Spine Finance",
+      "description": "Instant, Efficient, and Flexible Fixed-Rate Money Markets.",
+      "website": "https://spine.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "sprout",
+      "categoryId": "defi",
+      "name": "Sprout",
+      "description": "Yield app that helps users earn personalized DeFi yields matching risk tolerance, built for everyone.",
+      "website": "https://www.sproutfi.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "sumer",
+      "categoryId": "defi",
+      "name": "Sumer",
+      "description": "Sumer unifies correlated/non-correlated asset lending, CDP synthetics, and bridge liquidity into a capital-efficient DeFi pool.",
+      "website": "https://twitter.com/sumermoney",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "swaap",
+      "categoryId": "defi",
+      "name": "Swaap",
+      "description": "Swaap is the most efficient onchain liquidity source.",
+      "website": "https://www.swaap.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "swyrl-finance",
+      "categoryId": "defi",
+      "name": "Swyrl Finance",
+      "description": "Swyrl is a Monad-native DEX with dual AMMs and liquid staking, aligning users and protocols via ve(3,3)-driven governance.",
+      "website": "https://swyrl.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "tally",
+      "categoryId": "defi",
+      "name": "Tally",
+      "description": "Tally is the industry standard for onchain governance.",
+      "website": "https://www.tally.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Governance"
+      ]
+    },
+    {
+      "id": "timelock",
+      "categoryId": "defi",
+      "name": "Timelock",
+      "description": "Timebound, liquidation free leverage.",
+      "website": "https://www.timelock.trade/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "timeswap",
+      "categoryId": "defi",
+      "name": "Timeswap",
+      "description": "Timeswap is the first oracleless lending/borrowing protocol — enabling the creation of money markets for ANY ERC20 tokens.",
+      "website": "https://timeswap.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "tread-fi",
+      "categoryId": "defi",
+      "name": "Tread.fi",
+      "description": "Exchange aggregator and algorithmic trading platform, standardizing and elevating institutional and retail trading experiences.",
+      "website": "http://www.tread.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "typex",
+      "categoryId": "defi",
+      "name": "TypeX",
+      "description": "TypeX is a keyboard app that transforms user input value into on-chain assets, offering a seamless trading experience.",
+      "website": "https://typex.cc/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "uniswap",
+      "categoryId": "defi",
+      "name": "Uniswap",
+      "description": "The largest onchain marketplace. Buy and sell crypto on Monad and 11+ other chains.",
+      "website": "https://app.uniswap.org/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi"
+      ]
+    },
+    {
+      "id": "xl",
+      "categoryId": "defi",
+      "name": "XL",
+      "description": "XL is a memecoin launchpad enabling easy, low-cost token creation across various networks.",
+      "website": "https://testnet.xl.fun/monad",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Social"
+      ]
+    },
+    {
+      "id": "yamata",
+      "categoryId": "defi",
+      "name": "Yamata",
+      "description": "Yamata is full-stack DeFi: advanced CLOB trading, perps, options, vaults & predictions - all fast, all trustless, all under one roof.",
+      "website": "https://yamata.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "zona",
+      "categoryId": "defi",
+      "name": "Zona",
+      "description": "Zona is building scalable infra for composable RWA tokens. We let users mint, speculate, and earn yield on real estate Index Tokens.",
+      "website": "https://www.zona.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "RWA"
+      ]
+    },
+    {
+      "id": "across-protocol",
+      "categoryId": "cross-chain",
+      "name": "Across Protocol",
+      "description": "Across is the first intent-based crosschain bridge protocol. It's fast, cheap, and secure. Powering $30B+ in volume for 4M+ users.",
+      "website": "https://across.to/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "cycle-network",
+      "categoryId": "cross-chain",
+      "name": "Cycle Network",
+      "description": "Cycle Network offers bridgeless liquidity abstraction through verifiable state aggregation, supporting all BTC and EVM networks",
+      "website": "https://www.cyclenetwork.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "epoch-protocol",
+      "categoryId": "cross-chain",
+      "name": "Epoch Protocol",
+      "description": "Universal coordination network using solver based abstraction, through agents, solvers, dapps and chains to fulfil any intent for users",
+      "website": "https://epochprotocol.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain",
+        "Account Abstraction",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "fiamma",
+      "categoryId": "cross-chain",
+      "name": "Fiamma",
+      "description": "Unlocking Bitcoin’s real-world use, making it a dynamic asset & foundation of a decentralized internet & finance.",
+      "website": "https://fiammalabs.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "fonbnk",
+      "categoryId": "cross-chain",
+      "name": "Fonbnk",
+      "description": "Fonbnk links cash-based, mobile-first economies to Web3 by converting prepaid payments into stablecoins for instant global access.",
+      "website": "https://www.fonbnk.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Onramp",
+        "Stablecoin",
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "garden",
+      "categoryId": "cross-chain",
+      "name": "Garden",
+      "description": "Garden is a Bitcoin bridge, enabling cross-chain swaps in 30 seconds with trustless, zero-custody risk settlements for users.",
+      "website": "https://garden.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "hyperlane",
+      "categoryId": "cross-chain",
+      "name": "Hyperlane",
+      "description": "Hyperlane is a permissionless interoperability protocol for cross-chain message passing & asset transfers. It's fast, free, and open-source!",
+      "website": "https://hyperlane.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "li-fi",
+      "categoryId": "cross-chain",
+      "name": "LI.FI",
+      "description": "One API for seamless swaps & bridging across EVM, Solana and Bitcoin. Integrated by Robinhood Wallet, MetaMask, Phantom + 600 partners.",
+      "website": "https://li.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain",
+        "Dev Tooling",
+        "Account Abstraction"
+      ]
+    },
+    {
+      "id": "layerzero",
+      "categoryId": "cross-chain",
+      "name": "LayerZero",
+      "description": "LayerZero is an omnichain interoperability protocol that enables seamless communication between different blockchains.",
+      "website": "https://layerzero.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "nitro-by-router-protocol",
+      "categoryId": "cross-chain",
+      "name": "Nitro by Router Protocol",
+      "description": "Nitro is an intent-based bridge, provides fast, cheap bridges and swaps between 30+ chains",
+      "website": "https://app.routernitro.com/swap",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "orbiter-finance",
+      "categoryId": "cross-chain",
+      "name": "Orbiter Finance",
+      "description": "Orbiter Finance is a decentralized cross-rollup bridge that offers secure, low cost and almost instant transfer.",
+      "website": "https://www.orbiter.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "permute-finance",
+      "categoryId": "cross-chain",
+      "name": "Permute Finance",
+      "description": "Permute is a native Bitcoin bridge for secure, low-cost BTC cross-chain swaps & more with 0.1% fees and non-custodial security.",
+      "website": "https://permute.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "rhino-fi",
+      "categoryId": "cross-chain",
+      "name": "Rhino.fi",
+      "description": "rhino.fi is the ultimate bridge for effortless multi-chain token movement.",
+      "website": "https://rhino.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "stargate",
+      "categoryId": "cross-chain",
+      "name": "Stargate",
+      "description": "Stargate is a fully composable liquidity transport protocol that lives at the heart of Omnichain DeFi.",
+      "website": "https://stargate.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "t3rn",
+      "categoryId": "cross-chain",
+      "name": "T3rn",
+      "description": "t3rn executes cross-chain transactions at the protocol layer — no need for wrapping assets or trusting third-party relayers.",
+      "website": "https://t3rn.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "wormhole",
+      "categoryId": "cross-chain",
+      "name": "Wormhole",
+      "description": "Wormhole is a generic message-passing protocol designed to enable secure and efficient communication between different blockchains.",
+      "website": "https://wormhole.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "alchemy",
+      "categoryId": "analytics",
+      "name": "Alchemy",
+      "description": "Alchemy's end-to-end platform gives devs everything to build and scale web3 apps - from APIs to monitoring, across multiple chains.",
+      "website": "https://alchemy.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "RPC",
+        "Indexer"
+      ]
+    },
+    {
+      "id": "allium",
+      "categoryId": "analytics",
+      "name": "Allium",
+      "description": "Allium delivers blockchain data for analytics, applications, and accounting use cases via dashboards, APIs, datashares, and data streams.",
+      "website": "https://www.allium.so/",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics",
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "birdeye-data-services",
+      "categoryId": "analytics",
+      "name": "Birdeye Data Services",
+      "description": "High-performance onchain data provider with real-time, accurate data across tokens, wallets & protocols.",
+      "website": "https://bds.birdeye.so/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Analytics",
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "blockvision",
+      "categoryId": "analytics",
+      "name": "BlockVision",
+      "description": "BlockVision provides blockchain infrastructure services, offering APIs, RPC services to empower developers and users alike.",
+      "website": "https://blockvision.org/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "chainbase",
+      "categoryId": "analytics",
+      "name": "Chainbase",
+      "description": "Chainbase enables AI-era data interoperability and access with a decentralized, composable, and incentivized economy.",
+      "website": "https://twitter.com/ChainbaseHQ",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Analytics",
+        "Cross-Chain"
+      ]
+    },
+    {
+      "id": "codex",
+      "categoryId": "analytics",
+      "name": "Codex",
+      "description": "The Codex API provides fast and accurate enriched data, meticulously structured to easily plug straight into your application.",
+      "website": "https://www.codex.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "defined",
+      "categoryId": "analytics",
+      "name": "Defined",
+      "description": "Defined is the fastest charting platform serving 70+ networks and 25+ million tokens.",
+      "website": "https://defined.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics"
+      ]
+    },
+    {
+      "id": "dune",
+      "categoryId": "analytics",
+      "name": "Dune",
+      "description": "Dune is the leading data platform for onchain data, empowering users to query, visualize, and build across 90+ blockchains.",
+      "website": "http://dune.com/home",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "envio",
+      "categoryId": "analytics",
+      "name": "Envio",
+      "description": "Envio is a modern, multi-chain EVM blockchain indexer for querying real-time and historical data.",
+      "website": "https://envio.dev/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "euclid-protocol",
+      "categoryId": "analytics",
+      "name": "Euclid Protocol",
+      "description": "Euclid is the first liquidity consensus layer, letting any dApp instantly access liquidity from 50+ networks—no bridging needed.",
+      "website": "https://www.euclidprotocol.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "flipside-crypto",
+      "categoryId": "analytics",
+      "name": "Flipside Crypto",
+      "description": "Flipside orchestrates blockchain growth with data, science & community, turning onchain insights into measurable ecosystem value.",
+      "website": "https://flipsidecrypto.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics",
+        "Governance"
+      ]
+    },
+    {
+      "id": "ghost",
+      "categoryId": "analytics",
+      "name": "Ghost",
+      "description": "Build blazing fast indexers for smart contracts with Ghost: write transformations in Solidity, query data via GraphQL on hosted endpoints.",
+      "website": "https://twitter.com/0xGhostLogs",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "goldrush-by-covalent",
+      "categoryId": "analytics",
+      "name": "GoldRush by Covalent",
+      "description": "Foundational multichain data APIs and toolkits for easy web3 development across 100+ chains including Monad.",
+      "website": "https://goldrush.dev/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "goldsky",
+      "categoryId": "analytics",
+      "name": "Goldsky",
+      "description": "Indexing (subgraphs with RPC failover, webhooks, and more), and streaming pipelines (replicating data to your own infra).",
+      "website": "https://goldsky.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "hemera",
+      "categoryId": "analytics",
+      "name": "Hemera",
+      "description": "Hemera is a programmable and verifiable data layer powered by the Account-Centric Indexing protocol.",
+      "website": "https://thehemera.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Indexer"
+      ]
+    },
+    {
+      "id": "layerhub",
+      "categoryId": "analytics",
+      "name": "Layerhub",
+      "description": "LayerHub is an on-chain analytics platform offering dashboards, wallet insights, leaderboards, and ecosystem tracking tools.",
+      "website": "https://layerhub.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics"
+      ]
+    },
+    {
+      "id": "mobula",
+      "categoryId": "analytics",
+      "name": "Mobula",
+      "description": "Mobula provides Data APIs for dApps, blockchain analytics for foundations and warehousing for builders.",
+      "website": "https://mobula.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Analytics",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "monadexplorer-by-blockvision",
+      "categoryId": "analytics",
+      "name": "MonadExplorer by BlockVision",
+      "description": "MonadExplorer is a block explorer built by BlockVision. It helps users analyze transactions, contracts, and network activity on Monad.",
+      "website": "https://monadexplorer.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics"
+      ]
+    },
+    {
+      "id": "noves",
+      "categoryId": "analytics",
+      "name": "Noves",
+      "description": "With Noves, users can get financial-grade onchain data on Monad: clean, reconciled, and standardized, for tax, accounting, and finance.",
+      "website": "https://noves.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Dev Tooling",
+        "Indexer"
+      ]
+    },
+    {
+      "id": "okx-explorer",
+      "categoryId": "analytics",
+      "name": "OKX Explorer",
+      "description": "All-In-One blockchain explorer, supporting 60+ blockchains, with OpenAPI and EaaS to securely explore and build onchain.",
+      "website": "",
+      "tvl": "N/A",
+      "tags": [
+        "Analytics",
+        "Indexer"
+      ]
+    },
+    {
+      "id": "pangea",
+      "categoryId": "analytics",
+      "name": "Pangea",
+      "description": "Pangea is the immersive web3 environment, a trustless data network to explore and interact with blockchains, enabling the best experience.",
+      "website": "https://pangea.foundation/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer"
+      ]
+    },
+    {
+      "id": "reservoir",
+      "categoryId": "analytics",
+      "name": "Reservoir",
+      "description": "Reservoir is a developer platform that lets you interact with the NFT market using a single toolkit.",
+      "website": "https://reservoir.tools/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "sqd",
+      "categoryId": "analytics",
+      "name": "SQD",
+      "description": "SQD enables permissionless, cost-efficient access to petabytes of high-value Web3 data.",
+      "website": "https://www.sqd.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer"
+      ]
+    },
+    {
+      "id": "subquery",
+      "categoryId": "analytics",
+      "name": "SubQuery",
+      "description": "SubQuery’s infrastructure network offers everything from data indexers, RPCs and AI agents — all fully decentralised and production ready.",
+      "website": "https://twitter.com/SubQueryNetwork",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "the-graph",
+      "categoryId": "analytics",
+      "name": "The Graph",
+      "description": "The Graph is a decentralized protocol for indexing blockchain data, enabling developers to build web3 apps without managing infrastructure.",
+      "website": "https://thegraph.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer"
+      ]
+    },
+    {
+      "id": "thirdweb",
+      "categoryId": "analytics",
+      "name": "Thirdweb",
+      "description": "thirdweb is a full-stack, open-source Web3 platform with SDKs, smart contracts, indexers & wallets for EVM chains. Build & scale apps fast!",
+      "website": "https://thirdweb.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Dev Tooling",
+        "Indexer"
+      ]
+    },
+    {
+      "id": "unmarshal",
+      "categoryId": "analytics",
+      "name": "Unmarshal",
+      "description": "UnmarshalAI is a leading decentralized multi-chain data network, enabling Web3 projects to access accurate, real-time blockchain data.",
+      "website": "https://unmarshal.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer"
+      ]
+    },
+    {
+      "id": "ambire-wallet",
+      "categoryId": "wallet",
+      "name": "Ambire Wallet",
+      "description": "Еasy and secure self-custody for smart accounts, EOAs, and hardware wallets. EIP-7702 ready wallet.",
+      "website": "https://www.ambire.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "atomic-wallet",
+      "categoryId": "wallet",
+      "name": "Atomic Wallet",
+      "description": "Manage, exchange, and stake 1000+ assets securely on desktop & mobile.",
+      "website": "https://atomicwallet.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "backpack-wallet",
+      "categoryId": "wallet",
+      "name": "Backpack Wallet",
+      "description": "Backpack is a next-level wallet and exchange. Buy tokens, trade futures, and explore on-chain apps—seamlessly and securely. 🎒",
+      "website": "https://backpack.app/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "bitget-wallet",
+      "categoryId": "wallet",
+      "name": "Bitget Wallet",
+      "description": "Bitget Wallet is a non-custodial wallet with advanced multi-chain capabilities and a powerful swap function.",
+      "website": "https://web3.bitget.com/en?source=bitget",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "bybit-web3-wallet",
+      "categoryId": "wallet",
+      "name": "Bybit Web3 Wallet",
+      "description": "Bybit Web3 is your gateway to Web3. Explore DeFi offerings, and trade thousands of tokens across various networks.",
+      "website": "https://www.bybit.com/en/web3",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "coin98-ai-wallet",
+      "categoryId": "wallet",
+      "name": "Coin98 AI Wallet",
+      "description": "Crypto Messenger & AI Wallet. Everyone's Gateway to The Open Internet.",
+      "website": "https://coin98.com/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "foxwallet",
+      "categoryId": "wallet",
+      "name": "FoxWallet",
+      "description": "Leading multi-chain mobile and extension wallet solution that seamlessly integrates with major blockchains.",
+      "website": "https://twitter.com/FoxWallet",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "haha-wallet",
+      "categoryId": "wallet",
+      "name": "HaHa Wallet",
+      "description": "Native smart wallet with DeFi automations and a community rewards system.",
+      "website": "https://www.haha.me/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "koywe",
+      "categoryId": "wallet",
+      "name": "Koywe",
+      "description": "Koywe provides crypto ramps and stablecoin financial tools: payments, billing, treasury management for businesses in LATAM.",
+      "website": "https://www.koywe.com/en/home",
+      "tvl": "N/A",
+      "tags": [
+        "Onramp",
+        "Stablecoin",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "kucoin-web3-wallet",
+      "categoryId": "wallet",
+      "name": "KuCoin Web3 Wallet",
+      "description": "The KuCoin Web3 Wallet is a decentralized, self-custodial wallet for easy on-chain asset management.",
+      "website": "https://www.kucoin.com/download",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "leap-wallet",
+      "categoryId": "wallet",
+      "name": "Leap Wallet",
+      "description": "Leap is a multi-chain wallet spanning across EVM, Cosmos & Bitcoin.",
+      "website": "https://www.leapwallet.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "metakeep",
+      "categoryId": "wallet",
+      "name": "MetaKeep",
+      "description": "Onboard 300x more users in 1 API call, 5 mins. The #1 self-custody infra for users & AI is now on Monad—built by ex-GOOG, MSFT, X, META.",
+      "website": "https://metakeep.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "mozi",
+      "categoryId": "wallet",
+      "name": "Mozi",
+      "description": "MOZI is a next-generation social trading platform built on Monad, it combines a Web Wallet with powerful social trading tools.",
+      "website": "https://mozi.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "DeFi",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "nomas-wallet",
+      "categoryId": "wallet",
+      "name": "Nomas Wallet",
+      "description": "Reinvent the Web3 experience. Powered by AI.",
+      "website": "https://nomaswallet.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "okx-wallet",
+      "categoryId": "wallet",
+      "name": "OKX Wallet",
+      "description": "OKX Wallet is your all-in-one gateway to the Web3 world.",
+      "website": "",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "para",
+      "categoryId": "wallet",
+      "name": "Para",
+      "description": "Para is the easiest and most secure way to onboard all your users and support them throughout their crypto journey.",
+      "website": "https://getpara.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "phantom",
+      "categoryId": "wallet",
+      "name": "Phantom",
+      "description": "The friendly crypto wallet built for DeFi & NFTs.",
+      "website": "https://phantom.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "pimlico",
+      "categoryId": "wallet",
+      "name": "Pimlico",
+      "description": "Pimlico provides a suite of tools and services to help you build, deploy, and manage smart accounts on EVM-compatible chains.",
+      "website": "https://www.pimlico.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "privy",
+      "categoryId": "wallet",
+      "name": "Privy",
+      "description": "Privy helps onboard any user to crypto. Power flexible, powerful wallets under the hood for any application.",
+      "website": "http://privy.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "safepal",
+      "categoryId": "wallet",
+      "name": "SafePal",
+      "description": "SafePal is a non-custodial crypto wallet suite (hardware, mobile, browser) backed by Animoca and Binance, serving 20M+ users.",
+      "website": "https://www.safepal.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "tokenpocket",
+      "categoryId": "wallet",
+      "name": "TokenPocket",
+      "description": "TokenPocket is the world's leading multi-chain self-custodial wallet.",
+      "website": "https://twitter.com/TokenPocket_TP",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "turnkey",
+      "categoryId": "wallet",
+      "name": "Turnkey",
+      "description": "Modular, secure, scalable enterprise-grade wallet OS for building non-custodial embedded wallets, automating backend transactions, & more.",
+      "website": "https://www.turnkey.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "uniswap-wallet",
+      "categoryId": "wallet",
+      "name": "Uniswap Wallet",
+      "description": "The Uniswap Wallet is self-custody crypto wallet built for swapping. It lets you buy crypto, browse NFTs, explore Web3 apps, and swap tokens",
+      "website": "https://wallet.uniswap.org/",
+      "tvl": "N/A",
+      "tags": [
+        "Wallet"
+      ]
+    },
+    {
+      "id": "zerion",
+      "categoryId": "wallet",
+      "name": "Zerion",
+      "description": "Build feature-rich crypto apps, wallets, protocols and supercharge your product using Zerion API!",
+      "website": "https://zerion.io/api",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "zerodev",
+      "categoryId": "wallet",
+      "name": "ZeroDev",
+      "description": "The most powerful smart account development platform. Build Web3 experiences without gas, confirmations, seed phrases, and bridging.",
+      "website": "https://zerodev.app/",
+      "tvl": "N/A",
+      "tags": [
+        "Account Abstraction",
+        "Wallet"
+      ]
+    },
+    {
+      "id": "band-protocol",
+      "categoryId": "oracle",
+      "name": "Band Protocol",
+      "description": "Band Protocol is a cross-chain data oracle platform that aggregates and connects real-world data and APIs to smart contracts.",
+      "website": "https://www.bandprotocol.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle"
+      ]
+    },
+    {
+      "id": "chainlink",
+      "categoryId": "oracle",
+      "name": "Chainlink",
+      "description": "Chainlink is the standard for onchain finance, verifiable data, and cross-chain interoperability.",
+      "website": "https://chain.link/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain",
+        "Oracle"
+      ]
+    },
+    {
+      "id": "chainsight",
+      "categoryId": "oracle",
+      "name": "Chainsight",
+      "description": "Chainsight redefines oracles with no-code tools, lowering costs, reducing single-operator risks, and driving scalable, open innovation.",
+      "website": "https://chainsight.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Indexer",
+        "Oracle",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "chronicle",
+      "categoryId": "oracle",
+      "name": "Chronicle",
+      "description": "Decentralized, verifiable oracles. Chronicle connects product builders to realtime data & custom verification.",
+      "website": "https://chroniclelabs.org/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "diffuse",
+      "categoryId": "oracle",
+      "name": "Diffuse",
+      "description": "Diffuse is a zk serverless protocol that delivers fast, cost-efficient, and verifiable both on/off-chain data any project needs.",
+      "website": "https://www.diffuse.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Zero-Knowledge",
+        "Oracle",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "eoracle",
+      "categoryId": "oracle",
+      "name": "EOracle",
+      "description": "eOracle provides decentralized price feeds through a cryptoeconomically secure oracle network.",
+      "website": "https://www.eoracle.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle"
+      ]
+    },
+    {
+      "id": "entangle",
+      "categoryId": "oracle",
+      "name": "Entangle",
+      "description": "Blockchains are fragmented, blocking data, liquidity/tokens. Our interoperability stack unifies Web3.",
+      "website": "https://entangle.fi/",
+      "tvl": "N/A",
+      "tags": [
+        "Cross-Chain",
+        "Oracle",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "orochi-network",
+      "categoryId": "oracle",
+      "name": "Orochi Network",
+      "description": "Orochi Network is the world’s first Verifiable Data Infrastructure, addressing scalability, privacy, and data integrity challenges.",
+      "website": "https://twitter.com/OrochiNetwork",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle",
+        "Gaming Infra",
+        "Zero-Knowledge"
+      ]
+    },
+    {
+      "id": "pyth-network",
+      "categoryId": "oracle",
+      "name": "Pyth Network",
+      "description": "The price layer of the global financial market.",
+      "website": "http://pyth.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle"
+      ]
+    },
+    {
+      "id": "redstone",
+      "categoryId": "oracle",
+      "name": "RedStone",
+      "description": "RedStone is the fastest-growing Modular Oracle, specializing in yield-bearing collateral for lending markets, such as LSTs, LRTs and BTCFi.",
+      "website": "https://www.redstone.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle"
+      ]
+    },
+    {
+      "id": "stork",
+      "categoryId": "oracle",
+      "name": "Stork",
+      "description": "Stork, the fastest-growing oracle, offers over 355 real-time feeds for dApps, helping developers build Web2-level speed and efficiency.",
+      "website": "https://www.stork.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle",
+        "Dev Tooling"
+      ]
+    },
+    {
+      "id": "switchboard",
+      "categoryId": "oracle",
+      "name": "Switchboard",
+      "description": "Switchboard is the largest customizable oracle network and first oracle aggregator, helping secure nearly $1.5B in value across 10+ chains.",
+      "website": "https://switchboard.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle"
+      ]
+    },
+    {
+      "id": "terminal-3",
+      "categoryId": "oracle",
+      "name": "Terminal 3",
+      "description": "Terminal 3 is Web3’s most powerful user identity and data oracle.",
+      "website": "https://www.terminal3.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Oracle",
+        "Identity"
+      ]
+    },
+    {
+      "id": "blocklive",
+      "categoryId": "nft",
+      "name": "Blocklive",
+      "description": "Blocklive is a platform for end-to-end onchain event management and ticketing, using proof of history to target and reward fans.",
+      "website": "https://blocklive.io/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "RWA",
+        "Social"
+      ]
+    },
+    {
+      "id": "conft",
+      "categoryId": "nft",
+      "name": "CoNFT",
+      "description": "coNFT.app-NFT aggregator where users can create/trade NFT and register web3 domains.120k MAU. 1M+ mints. 70k+ web3 registrations.",
+      "website": "https://conft.app/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "cult-markets",
+      "categoryId": "nft",
+      "name": "Cult Markets",
+      "description": "Gamified omnichain NFT marketplace powering dynamic drops, collectibles, and interactive shard-based campaigns.",
+      "website": "https://testnet.cultmarkets.com/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "Social",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "drkvrs",
+      "categoryId": "nft",
+      "name": "DRKVRS",
+      "description": "DRKVRS is a Web3 Multiplayer Action RPG game with innovative mechanics, set in a dystopian and brutalist world.",
+      "website": "https://www.drkvrs.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "AI",
+        "NFT"
+      ]
+    },
+    {
+      "id": "demask-finance",
+      "categoryId": "nft",
+      "name": "Demask Finance",
+      "description": "Demask Finance is an on-chain AMM protocol that enables trading between NFT collectibles and native tokens.",
+      "website": "https://demask.finance/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "gifted-art",
+      "categoryId": "nft",
+      "name": "Gifted.art",
+      "description": "Gifted.art is a email delivery platform.",
+      "website": "https://gifted.art/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "RWA",
+        "Social"
+      ]
+    },
+    {
+      "id": "hawk-terminal",
+      "categoryId": "nft",
+      "name": "Hawk Terminal",
+      "description": "Launchpad for on-chain builders augmented by AI agents.",
+      "website": "https://hawkterminal.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "NFT",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "kingdomly",
+      "categoryId": "nft",
+      "name": "Kingdomly",
+      "description": "An all in one NFT Dapp, where users can launch, mint, trade, bridge, stake on Kingdomly 🏰",
+      "website": "https://www.kingdomly.app/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "lootify",
+      "categoryId": "nft",
+      "name": "Lootify",
+      "description": "Lootify is a lootbox platform on Monad, offering NFTs, gaming assets, and tokenized trading cards as rewards.",
+      "website": "https://beta.lootify.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "NFT",
+        "Betting"
+      ]
+    },
+    {
+      "id": "magic-eden",
+      "categoryId": "nft",
+      "name": "Magic Eden",
+      "description": "Magic Eden brings all chains and all assets together in one easy-to-use platform.",
+      "website": "https://magiceden.io/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "meow-finance",
+      "categoryId": "nft",
+      "name": "Meow Finance",
+      "description": "The most capital and time-efficient liquidity infrastructure built to unlock additional layers of liquidity.",
+      "website": "https://meowfi.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "AI",
+        "NFT"
+      ]
+    },
+    {
+      "id": "mintpad",
+      "categoryId": "nft",
+      "name": "Mintpad",
+      "description": "Mintpad makes it easy to start an NFT collection. All creators need is their artwork and a cryptocurrency wallet.",
+      "website": "https://mintpad.co/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "moseiki",
+      "categoryId": "nft",
+      "name": "Moseiki",
+      "description": "Moseiki is Web3 Social Networking Application that merges the familiar experience of Web2 with the financial power of blockchain.",
+      "website": "https://moseiki.app/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "AI",
+        "NFT"
+      ]
+    },
+    {
+      "id": "nfts2me",
+      "categoryId": "nft",
+      "name": "NFTs2Me",
+      "description": "NFTs2Me is a user-friendly comprehensive platform to create, deploy and manage your NFT collection on Monad, 100% free.",
+      "website": "http://nfts2me.com/app/monad-testnet/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "Social"
+      ]
+    },
+    {
+      "id": "omnia",
+      "categoryId": "nft",
+      "name": "Omnia",
+      "description": "Omnia is a pet battle and adventure game, built by the Sappy Seals team.",
+      "website": "https://www.omnia.lol/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "opals",
+      "categoryId": "nft",
+      "name": "Opals",
+      "description": "Opals: Kickstarter meets NFTs for projects. Buy cards → auto-launch when funded → cards claim tokens + rewards. Discover gems.",
+      "website": "https://opals.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "NFT",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "opensea",
+      "categoryId": "nft",
+      "name": "OpenSea",
+      "description": "The largest NFT marketplace. Buy, sell, & discover the internet of goods.",
+      "website": "https://opensea.io/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "outpost-surge",
+      "categoryId": "nft",
+      "name": "Outpost Surge",
+      "description": "A city-building society survival game on Mars. Manage resources, grow your outpost, and earn rewards.",
+      "website": "https://www.outpostsurge.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "NFT"
+      ]
+    },
+    {
+      "id": "poply",
+      "categoryId": "nft",
+      "name": "Poply",
+      "description": "Community-based NFT marketplace where anyone can generate custom NFT collections using an integrated AI engine.",
+      "website": "https://poply.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT"
+      ]
+    },
+    {
+      "id": "poster-fun",
+      "categoryId": "nft",
+      "name": "Poster.fun",
+      "description": "Poster.fun: the full-stack meme studio powered by Info-Fi™—mint in seconds, track on-chain virality, and pocket tips & bounties.",
+      "website": "",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "NFT"
+      ]
+    },
+    {
+      "id": "rgbclash",
+      "categoryId": "nft",
+      "name": "RgbClash",
+      "description": "Unleash your creativity and draw your yield bearing NFTs. Play to earn with multiplayer drawing-guessing game.",
+      "website": "https://rgbclash.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "NFT"
+      ]
+    },
+    {
+      "id": "scatter-art",
+      "categoryId": "nft",
+      "name": "Scatter.art",
+      "description": "Scatter is an artist-first NFT launchpad enabling free artistic expression where VC-funded markets cannot.",
+      "website": "https://www.scatter.art/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "Social"
+      ]
+    },
+    {
+      "id": "upfloor",
+      "categoryId": "nft",
+      "name": "Upfloor",
+      "description": "UpFloor is a DeFi protocol that transforms NFT collections into growth engines",
+      "website": "https://upfloor.co/",
+      "tvl": "N/A",
+      "tags": [
+        "NFT",
+        "DeFi"
+      ]
+    },
+    {
+      "id": "wonad",
+      "categoryId": "nft",
+      "name": "Wonad",
+      "description": "First Plant to Earn project on Monad. Offering a way to create real-world impact while earning rewards",
+      "website": "https://www.thiswonad.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "DeFi",
+        "NFT"
+      ]
+    },
+    {
+      "id": "breath-of-estova",
+      "categoryId": "gaming",
+      "name": "Breath of Estova",
+      "description": "Breath of Estova is a play-to-earn 2D action-based MMORPG where classic nostalgia meets a vast open world.",
+      "website": "https://www.breathofestova.com/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "catton-ai",
+      "categoryId": "gaming",
+      "name": "Catton AI",
+      "description": "Catton AI, backed by Forj & Ape Accelerator, leads AI NPC gaming on Telegram with 900K users and 300k holders.",
+      "website": "https://catton.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "golden-goose",
+      "categoryId": "gaming",
+      "name": "Golden Goose",
+      "description": "Golden Goose is an yield-bearing game incubated by Cycle Network that combines blind boxes, nurturing gameplay and DeFi!",
+      "website": "https://test.goose.farm/goose",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "legends-of-elysium",
+      "categoryId": "gaming",
+      "name": "Legends of Elysium",
+      "description": "A fantasy strategy game that combines TCG and board game mechanics. Collect cards, build custom decks, and engage in tactical battles.",
+      "website": "https://legendsofelysium.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "lootgo",
+      "categoryId": "gaming",
+      "name": "LootGO",
+      "description": "LootGO is a free walk-to-earn mobile app turning your daily life into a treasure hunt for next 100x memecoins.",
+      "website": "https://lootgo.app/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "Social"
+      ]
+    },
+    {
+      "id": "lumiterra",
+      "categoryId": "gaming",
+      "name": "Lumiterra",
+      "description": "Lumiterra is the first agentic interactive multiplayer sandbox",
+      "website": "https://lumiterra.net/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Gaming",
+        "Social"
+      ]
+    },
+    {
+      "id": "m0narch",
+      "categoryId": "gaming",
+      "name": "M0narch",
+      "description": "Provably fair iGaming platform on Monad - every wager, outcome, and payout is secured on-chain.",
+      "website": "https://m0narch.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Betting",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "mahjong123",
+      "categoryId": "gaming",
+      "name": "Mahjong123",
+      "description": "Match tiles, progress through levels, boost your ranking, and get more airdrop rewards!",
+      "website": "https://monad.mahjong123.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "meta-leap",
+      "categoryId": "gaming",
+      "name": "Meta Leap",
+      "description": "Meta Leap is a plug-and-play AI Gaming solution that empowers developers to seamlessly onboard their Web2 games onto Web3 within 30 minutes.",
+      "website": "https://metaleap.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "nadsa",
+      "categoryId": "gaming",
+      "name": "NADSA",
+      "description": "NADSA is the purpose-built command center for seamless exploration on Monad.",
+      "website": "https://nadsa.space/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "play-network",
+      "categoryId": "gaming",
+      "name": "PLAY Network",
+      "description": "PLAY turbocharges games with crypto rails. Any game, any chain.",
+      "website": "https://www.theplay.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "Gaming Infra"
+      ]
+    },
+    {
+      "id": "plato",
+      "categoryId": "gaming",
+      "name": "Plato",
+      "description": "SocialFi for dining, making eating fun, engaging, and social.",
+      "website": "https://m.getplato.app/monad",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "AI",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "redbrick",
+      "categoryId": "gaming",
+      "name": "Redbrick",
+      "description": "Create. Play. Earn. Redbrick is a next-generation web3 gaming engine empowering creators to publish & monetize their games.",
+      "website": "https://redbrick.land/monad",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "rug-rumble",
+      "categoryId": "gaming",
+      "name": "Rug Rumble",
+      "description": "Gamifying the speculative memecoin landscape. Wager your memecoins, defend your banner, and win outsized returns.",
+      "website": "http://rugrumble.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "DeFi",
+        "Betting",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "showdown",
+      "categoryId": "gaming",
+      "name": "Showdown",
+      "description": "Powering competitive gaming's future on Monad. Automated tournaments & skill-based wagering for all gamers on their favorite gaming titles!",
+      "website": "https://showdown.win/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "Gaming Infra"
+      ]
+    },
+    {
+      "id": "sidekick",
+      "categoryId": "gaming",
+      "name": "Sidekick",
+      "description": "Sidekick Protocol is a one-stop platform for asset distribution & trading. Launch, distribute, and trade assets via live streaming.",
+      "website": "https://twitter.com/Sidekick_Labs",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "Gaming"
+      ]
+    },
+    {
+      "id": "tezza-poker",
+      "categoryId": "gaming",
+      "name": "Tezza Poker",
+      "description": "Play, win, mint. Tezza Poker lets you compete free, earn Points, and claim NFTs—pure skill, real rewards.",
+      "website": "https://t.me/playtezzapoker_bot",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming",
+        "Betting"
+      ]
+    },
+    {
+      "id": "valor-quest",
+      "categoryId": "gaming",
+      "name": "Valor Quest",
+      "description": "The No.1 Mythic-themed AFK game on Telegram with NFTs, mining, and epic battles.",
+      "website": "https://t.me/ValorQuestBot",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "x2c",
+      "categoryId": "gaming",
+      "name": "X2C",
+      "description": "X2C is where degens play to win. Users skill up in ultra-casual games for token rewards.",
+      "website": "https://x2c.fun/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "yieldkingz",
+      "categoryId": "gaming",
+      "name": "YieldKingZ",
+      "description": "YieldKingZ: A Web3 Game-Fi casino featuring yield farming, sustainable tokenomics, and Club-Fi for community-driven finance.",
+      "website": "https://test-monad.yieldkingz.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Gaming"
+      ]
+    },
+    {
+      "id": "dusted",
+      "categoryId": "social",
+      "name": "Dusted",
+      "description": "Connect with every community member in token-specific chat rooms, earn Dusted points, and win prizes from other Monad projects.",
+      "website": "https://www.dusted.app/",
+      "tvl": "N/A",
+      "tags": [
+        "Social"
+      ]
+    },
+    {
+      "id": "farcaster",
+      "categoryId": "social",
+      "name": "Farcaster",
+      "description": "Farcaster is a decentralized social app that has an embedded wallet and mini apps that support Monad",
+      "website": "http://farcaster.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "Social"
+      ]
+    },
+    {
+      "id": "kizzy",
+      "categoryId": "social",
+      "name": "Kizzy",
+      "description": "Kizzy is a social media betting app. Bet on how your favorite influencers and celebrities will perform on Twitter and YouTube.",
+      "website": "https://kizzy.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "Betting"
+      ]
+    },
+    {
+      "id": "slogain",
+      "categoryId": "social",
+      "name": "Slogain",
+      "description": "Post and Bump. Content Rewards Made Easy. Everyone has a stake in the content ecosystem. Each click translates into tangible recognition.",
+      "website": "https://monad.slogain.gg/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "Prediction Market"
+      ]
+    },
+    {
+      "id": "stationx",
+      "categoryId": "social",
+      "name": "StationX",
+      "description": "StationX tokenises private investments - enabling users to join syndicates & invest in deals",
+      "website": "https://stationx.network/",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "RWA",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "tadle",
+      "categoryId": "social",
+      "name": "Tadle",
+      "description": "Tadle is a full-stack platform offering Points trading, Missions, and Odds Marketplaces to boost engagement, liquidity, and growth.",
+      "website": "https://tadle.com/en",
+      "tvl": "N/A",
+      "tags": [
+        "Social",
+        "Prediction Market",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "talentum",
+      "categoryId": "social",
+      "name": "Talentum",
+      "description": "Talentum is an attention layer focused on on-chain activities and credentials.",
+      "website": "https://monad.talentum.id/",
+      "tvl": "N/A",
+      "tags": [
+        "Social"
+      ]
+    },
+    {
+      "id": "fans3-ai",
+      "categoryId": "ai",
+      "name": "Fans3 AI",
+      "description": "Fans3 empowers creators to build emotionally intelligent AI personas that engage fans 24/7",
+      "website": "https://www.fans3.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Social"
+      ]
+    },
+    {
+      "id": "fizen-io",
+      "categoryId": "ai",
+      "name": "Fizen.io",
+      "description": "Backed by Tether, Fizen.io provides a Wallet-based Crypto Super App Pay for everything with crypto.",
+      "website": "https://fizen.io/",
+      "tvl": "N/A",
+      "tags": [
+        "Payments",
+        "AI"
+      ]
+    },
+    {
+      "id": "fortytwo",
+      "categoryId": "ai",
+      "name": "Fortytwo",
+      "description": "A decentralized AI network growing smarter with each node where every computer contributes to planetary-scale limitless intelligence.",
+      "website": "https://fortytwo.network/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Other Infra"
+      ]
+    },
+    {
+      "id": "gm-agents",
+      "categoryId": "ai",
+      "name": "GM Agents",
+      "description": "GM Agents is an AI super app that brings together a wide range of AI agents — for text, image, audio, and video.",
+      "website": "https://gmagents.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "henry-labs",
+      "categoryId": "ai",
+      "name": "Henry Labs",
+      "description": "Henry Labs makes it possible for apps to enable in-app shopping with a simple SDK, using agents to execute purchases.",
+      "website": "https://www.henrylabs.xyz/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "kinetk",
+      "categoryId": "ai",
+      "name": "KINETK",
+      "description": "Invisible watermarking, agentic AI detection & on-chain registration – building IP infrastructure for the future of digital creativity",
+      "website": "https://www.kinetk.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "RWA",
+        "Other Apps"
+      ]
+    },
+    {
+      "id": "kodeus-ai",
+      "categoryId": "ai",
+      "name": "Kodeus AI",
+      "description": "Kodeus lets users build on-chain Agentic apps from prompts - powered by LLM orchestration, 4k+ tools, and IP monetization.",
+      "website": "https://kodeus.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "merv",
+      "categoryId": "ai",
+      "name": "MERV",
+      "description": "IP creation platform powered by AI.",
+      "website": "https://merv.wtf/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "mflo",
+      "categoryId": "ai",
+      "name": "Mflo",
+      "description": "The Data Kernel for AI agents - by MCP and x402, enabling on-demand access across any datasets.",
+      "website": "https://mflo.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "Payments",
+        "AI",
+        "RWA"
+      ]
+    },
+    {
+      "id": "mindagentsai",
+      "categoryId": "ai",
+      "name": "MindAgentsAI",
+      "description": "Dual-purpose platform: AI Agent Marketplace and a Decentralized Launchpad",
+      "website": "http://mindagents.net/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "monadata-ai",
+      "categoryId": "ai",
+      "name": "Monadata AI",
+      "description": "Monadata is an AI and Data Platform on Monad. Interact, Train, and Earn!",
+      "website": "https://monadata.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "multisynq",
+      "categoryId": "ai",
+      "name": "Multisynq",
+      "description": "The first shared, real-time application layer of the internet. A decentralized network where every app is multiplayer by default.",
+      "website": "https://multisynq.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN",
+        "AI"
+      ]
+    },
+    {
+      "id": "nillion",
+      "categoryId": "ai",
+      "name": "Nillion",
+      "description": "Humanity's first blind computer. The internet’s base layer for all private data.",
+      "website": "http://www.nillion.com/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "Privacy"
+      ]
+    },
+    {
+      "id": "nubila",
+      "categoryId": "ai",
+      "name": "Nubila",
+      "description": "Nubila is building the physical perception layer for the autonomous economy and AI.",
+      "website": "https://nubila.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "DePIN",
+        "RWA"
+      ]
+    },
+    {
+      "id": "rumi",
+      "categoryId": "ai",
+      "name": "Rumi",
+      "description": "Rumi enables users to watch, earn, and help build the future of AI-powered entertainment.",
+      "website": "https://rumilabs.io/",
+      "tvl": "N/A",
+      "tags": [
+        "AI",
+        "DePIN"
+      ]
+    },
+    {
+      "id": "the-vape-labs",
+      "categoryId": "ai",
+      "name": "The Vape Labs",
+      "description": "The Vape Labs pioneers DePIN x Vape2Earn with AI-powered smart vapes, rewarding users and providing anonymized data for public health.",
+      "website": "https://app.thevapelabs.io/",
+      "tvl": "N/A",
+      "tags": [
+        "DePIN",
+        "AI"
+      ]
+    },
+    {
+      "id": "zapry",
+      "categoryId": "ai",
+      "name": "Zapry",
+      "description": "Zapry is a one-stop web3 entrance that incubates viral trends and offers one-step crypto transfers.",
+      "website": "https://www.zapry.net/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "dfusion-ai",
+      "categoryId": "ai",
+      "name": "dFusion AI",
+      "description": "dFusion unlocks private and domain specific data into enriched, curated datasets - fueling accurate, next-gen AI models.",
+      "website": "https://www.dfusion.ai/",
+      "tvl": "N/A",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "id": "polyflow",
+      "categoryId": "rwa",
+      "name": "PolyFlow",
+      "description": "PayFi protocol linking RWAs with DeFi.",
+      "website": "https://app.polyflow.tech/",
+      "tvl": "N/A",
+      "tags": [
+        "RWA"
+      ]
+    },
+    {
+      "id": "skytrade",
+      "categoryId": "rwa",
+      "name": "SkyTrade",
+      "description": "SkyTrade lets you monetize your air rights, the legal right to use and control the space above buildings and land.",
+      "website": "https://sky.trade/",
+      "tvl": "N/A",
+      "tags": [
+        "RWA",
+        "DePIN"
+      ]
+    }
+  ]
+}
